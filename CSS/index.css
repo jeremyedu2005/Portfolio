@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Sora', sans-serif;
+}
+
+body {
+    background-color: #0a0e1a;
+    font-family: 'inter', sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(20, 27, 48, 0.95);
+    backdrop-filter: blur(8px);
+    z-index: 100;
+
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+li a {
+    color: #c4ccd9;
+    text-decoration: none;
+    font-family: 'inter', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: #4dd9ff;
+}
+
+.fond-img {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fond-img svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+    pointer-events: none;
+}
+
+/* centrage du titre*/
+.fond-img h1{
+    position:relative;
+    color:  #e8f4ff ;
+    text-align: center;
+    font-size: 3.5rem;
+    line-height:1.3;
+    text-shadow: 0 4px 20px rgba(0 0, 0, 0.7);
+    z-index: 10;
+
+
+}
+
+.fragment-moyen {
+    transition: transform 0.3s ease;
+    transform-box: fill-box;
+    transform-origin: center;
+    cursor: pointer;
+    pointer-events: auto; /* FOrce la souris à détectet les fragments si le SVG a pointer-events : none*/
+}
+
+.fragment-moyen:hover {
+    transform: scale(1.05);
+}
