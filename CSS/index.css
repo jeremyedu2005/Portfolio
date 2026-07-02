@@ -108,7 +108,7 @@ li a:hover {
     transform: scale(1.05);
 }
 
-.propos{
+.propos {
     text-align: center;
     margin-top: 20px;
     background-color: #6f4ee9bb;
@@ -117,8 +117,6 @@ li a:hover {
     justify-content: center;
     border: 2px solid #0D22A4;
     border-radius: 5px;
-    
-
 }
 
 .alternance,
@@ -134,19 +132,22 @@ li a:hover {
     justify-content: center;
     max-width: 1200px;
     width: 100%;
-    margin: 20px auto 0 auto; /* Centre la boîte sur la page */
+    margin: 20px auto 0 auto;
+    /* Centre la boîte sur la page */
     max-height: 75%;
     height: 50%;
-    background-color: #0a0e1a;
+    background-color: #11182c;
     border: 2px solid #0D22A4;
     border-radius: 12px;
-    padding: 40px 20px ; /* Remplacement des % de hauteur par du padding interne (garde ton design intact sans bug) */
+    padding: 40px 20px;
+    /* Remplacement des % de hauteur par du padding interne (garde ton design intact sans bug) */
 }
 
 .image {
     display: block;
     width: 400px;
-    height:auto; /* Empêche l'image de s'écraser si le ratio change */
+    height: auto;
+    /* Empêche l'image de s'écraser si le ratio change */
     border-radius: 10px;
     border: 2px solid #0D22A4;
 }
@@ -155,7 +156,7 @@ li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 }
 
 .paragraphe {
@@ -163,4 +164,111 @@ li a:hover {
     font-size: 30px;
     line-height: 1.4;
     justify-content: center;
+}
+
+
+.Timeline {
+    position: relative;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 40px 0;
+    overflow: hidden;
+    /* clearfix pour les floats */
+}
+
+.Timeline::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: #0D22A4;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container-gauche,
+.container-droite {
+    position: relative;
+    width: 50%;
+    padding: 15px 40px;
+    margin-bottom: 25px;
+}
+
+.container-gauche {
+    float: left;
+    clear: right;
+}
+
+.container-droite {
+    float: right;
+    clear: left;
+}
+
+.container-gauche::after,
+.container-droite::after {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-color: #0a0e1a;
+    border: 3px solid #4dd9ff;
+    border-radius: 50%;
+    top: 20px;
+    z-index: 2;
+}
+
+.container-gauche::after {
+    right: -9px;
+}
+
+.container-droite::after {
+    left: -9px;
+}
+
+.content {
+    background-color: #141b30;
+    border: 2px solid #0D22A4;
+    border-radius: 10px;
+    padding: 20px 25px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 15px;
+    row-gap: 10px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content:hover {
+    border-color: #4dd9ff;
+    box-shadow: 0 0 20px rgba(77, 217, 255, 0.25);
+}
+
+/* Formation : tout en haut, prend la colonne de gauche */
+.content h2 {
+    grid-column: 1;
+    grid-row: 1;
+    color: #e8f4ff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+/* Date : alignée à droite, même ligne que la formation */
+.content .date {
+    grid-column: 2;
+    grid-row: 1;
+    color: #4dd9ff;
+    font-weight: bold;
+    font-size: 0.95rem;
+    white-space: nowrap;
+    align-self: start;
+    text-align: right;
+}
+
+/* Lieu : en bas, sur toute la largeur */
+.content .lieu {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    color: #7a8499;
+    font-size: 0.95rem;
 }
