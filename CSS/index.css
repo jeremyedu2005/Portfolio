@@ -78,16 +78,21 @@ li a:hover {
 }
 
 /* centrage du titre*/
-.fond-img h1{
-    position:relative;
-    color:  #e8f4ff ;
+.fond-img h1 {
+    position: relative;
+    color: #e8f4ff;
     text-align: center;
     font-size: 3.5rem;
-    line-height:1.3;
+    line-height: 1.3;
     text-shadow: 0 4px 20px rgba(0 0, 0, 0.7);
+    /* 1. Applique le dégradé linéaire de haut en bas */
+    background-image: linear-gradient(to bottom, #7d5df1, #a3d2ff);
+    /* 2. Coupe le fond pour qu'il épouse uniquement le texte (les préfixes webkit assurent la compatibilité) */
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* 3. Rend la couleur de base du texte transparente pour laisser apparaître le dégradé en fond */
+    -webkit-text-fill-color: transparent;
     z-index: 10;
-
-
 }
 
 .fragment-moyen {
@@ -95,7 +100,8 @@ li a:hover {
     transform-box: fill-box;
     transform-origin: center;
     cursor: pointer;
-    pointer-events: auto; /* FOrce la souris à détectet les fragments si le SVG a pointer-events : none*/
+    pointer-events: auto;
+    /* FOrce la souris à détectet les fragments si le SVG a pointer-events : none*/
 }
 
 .fragment-moyen:hover {
