@@ -321,13 +321,59 @@
     </section>
 
 
-    <section class="intro"> Mes projets</section>
+    <section class="intro">
+        <h2 class="propos">projets</h2>
+        <p class="projets">Au cours de ma formation j'ai pu réaliser des projets académiques mais aussi personnels</p>
 
-    <h3> Au cours de ma formation j'ai pu réaliser des projets</h3>
+        <div class="projets-container">
+            <div class="carte-projet">
+                <div class="projets-image">
+                    <img src="img/carte_france.webp" alt="carte de la france" title="carte de la france">
+                </div>
+                <div class="projet-content">
+                    <h3 class="projet-titre">Visualisation de données — Carte interactive (projet universitaire)</h3>
+                    <p class="projet-text-court">Carte SVG interactive des départements français, corrélations
+                        climatiques visualisées avec D3.js</p>
+                    <div class="projet-outils-liste">
+                        <span class="badge-outil">HTML</span>
+                        <span class="badge-outil">CSS</span>
+                        <span class="badge-outil">JavaScript</span>
+                    </div>
+                    <button class="btn-savoir-plus" data-template-id="tpl-data">En savoir plus</button>
+                    <template id="tpl-data">
+                        <h2 class="modal-titre">Projets de visualisation de données</h2>
+                        <p class="modal-text-long">Ce projet de Data Visualization consistait à intégrer une carte
+                            interactive en insérant du code SVG directement dans un fichier HTML. L'objectif principal
+                            était de manipuler et de traiter des données provenant d'un fichier CSV à l'aide de
+                            JavaScript.<br>
+                            Grâce à ce développement, j'ai pu établir et visualiser des corrélations entre l'âge des
+                            individus, leur opinion sur le changement climatique et leurs modes de transport. Pour
+                            l'expérience utilisateur, j'ai conçu des animations CSS permettant de mettre en évidence
+                            chaque département au survol et d'afficher des infobulles dynamiques.<br>
+                            Enfin, j'ai utilisé la bibliothèque D3.js pour générer des graphiques complexes et précis
+                            afin d'illustrer les résultats de cette analyse.</p>
+                        <div class="modal-technos"><strong>Technologies:</strong> HTML, CSS, JavaScript</div>
+                        <a href="Projets/SAE303/index.html" target="_blank" class="btn-voir-projet">Voir le projet</a>
+                    </template>
+                </div>
+            </div>
+            <!-- Ton prochain projet viendra ici, en copiant exactement le même bloc .carte-projet -->
+        </div>
+    </section>
 
-    Faire les cartes
+    <div id="modal-container" class="modal-hidden">
+        <div class="modal-cadre">
+            <button id="modal-close" aria-label="Fermer">&times;</button>
+            <div id="modal-inject-content"></div>
+        </div>
+    </div>
 
-    <section>Contact</section>
+
+
+
+
+
+    <section class="intro">Contact</section>
 
     Faire un formulaire
 

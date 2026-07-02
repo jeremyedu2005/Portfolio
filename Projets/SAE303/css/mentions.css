@@ -1,0 +1,694 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+body{
+    background-color:#F5F7FA ;
+    padding-bottom: 80px; /* Espace pour le footer fixe */
+
+}
+
+div.titre{
+    display: flex;
+    flex-direction: row;
+    width: 97.9%;
+    background-color:  #E9967A;
+    justify-content: center;
+    padding: 20px;
+    
+    
+
+   
+}
+
+h1{
+    color: white;
+    font-size: bold;
+    font-family: 40px;
+    
+    
+
+}
+div.propriétaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+h2.editeur{
+    font-size: 30px;
+    color: black;
+    
+}
+
+p.propriétaire,.statut,.adresse,.e-mail{
+    font-size: 16px;
+    
+}
+
+div.hébergeur{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+h2.hébergement{
+    font-size: 30px;
+    color: black;
+     
+
+}
+
+p.hébergeur-hébergeur,.AP,.adresse-hébergeur,.num-hébergeur,.lien-hébergeur{
+    color: black;
+    
+    font-size: 16px;
+
+}
+
+div.Propriété{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+h2.propriété{
+    font-size:30px;
+    color: black;
+    
+}
+
+p.intellectuelle{
+    font-size: 16px;
+    color: black;
+    
+}
+
+div.Activité{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+h2.portfolio{
+    font-size: 30px;
+    color: black;
+    
+
+}
+
+p.activité,.professionnelle{
+    font-size: 16px;
+    color: black;
+     
+
+}
+
+div.Cookies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+h2.Gestion{
+    font-size: 30px;
+    color: black;
+    
+
+
+}
+
+p.Gestion-Cookies{
+    font-size: 16px;
+    color: black;
+    
+
+}
+
+div.Description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+h2.site{
+    font-size: 30px;
+    color: black;
+    
+}
+
+p.Description-site{
+    font-size: 16px;
+    color: black;
+    
+
+}
+
+
+footer{
+    width: 100%;
+    position: fixed;
+    background-color: #E9967A;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    padding: 20px;
+    z-index: 10px;
+    
+
+    
+    
+    
+   
+
+}
+
+a.legales{
+    color:white;
+    text-decoration: underline;
+}
+
+
+
+@media(max-width:1853px){
+    div.titre{
+        width:97.8% ;
+    }
+   
+
+}
+
+@media(max-width:1772px){
+    div.titre{
+        width:97.7% ;
+    }
+}
+
+@media(max-width:1695px){
+    div.titre{
+        width:97.6% ;
+    }
+}
+
+@media(max-width:1625px){
+    div.titre{
+        width:97.5% ;
+    }
+}
+
+@media(max-width:1560px){
+    div.titre{
+        width:97.4% ;
+    }
+}
+
+@media(max-width:1500px){
+    div.titre{
+        width:97.3% ;
+    }
+}
+
+
+@media(max-width:1544px){
+    div.titre{
+        width:97.2% ;
+    }
+}
+
+
+
+@media(max-width:1392px){
+    div.titre{
+        width:97.1% ;
+    }
+}
+
+
+@media(max-width:1344px){
+    div.titre{
+        width:97% ;
+    }
+}
+
+
+@media(max-width:1300px){
+    div.titre{
+        width:96.9% ;
+    }
+}
+
+@media(max-width:1258px){
+    div.titre{
+        width:96.8% ;
+    }
+}
+
+@media(max-width:1218px){
+    div.titre{
+        width:96.7% ;
+    }
+}
+
+@media(max-width:1180px){
+    div.titre{
+        width:96.6% ;
+    }
+}
+
+
+@media(max-width:1147px){
+    div.titre{
+        width:96.5% ;
+    }
+}
+
+@media(max-width:1114px){
+    div.titre{
+        width:96.4% ;
+    }
+}
+
+@media(max-width:1083px){
+    div.titre{
+        width:96.3% ;
+    }
+}
+
+
+@media(max-width:1054px){
+    div.titre{
+        width:96.2% ;
+    }
+}
+
+
+@media(max-width:1025px){
+    div.titre{
+        width:96.1% ;
+    }
+}
+
+
+@media(max-width:1000px){
+    div.titre{
+        width:96% ;
+    }
+}
+
+@media(max-width:975px){
+    div.titre{
+        width:95.9% ;
+    }
+}
+
+
+@media(max-width:951px){
+    div.titre{
+        width:95.8% ;
+    }
+}
+
+@media(max-width:928px){
+    div.titre{
+        width:95.7% ;
+    }
+}
+
+@media(max-width:906px){
+    div.titre{
+        width:95.6% ;
+    }
+}
+
+@media(max-width:886px){
+    div.titre{
+        width:95.4% ;
+    }
+}
+
+@media(max-width:847px){
+    div.titre{
+        width:95.3% ;
+    }
+}
+
+@media(max-width:829px){
+    div.titre{
+        width:95.2% ;
+    }
+}
+
+
+@media(max-width:812px){
+    div.titre{
+        width:95.1% ;
+    }
+}
+
+@media(max-width:795px){
+    div.titre{
+        width:95%;
+    }
+}
+
+@media(max-width:780px){
+    div.titre{
+        width:94.9%;
+    }
+}
+
+@media(max-width:764px){
+    div.titre{
+        width:94.8%;
+    }
+}
+
+@media(max-width:750px){
+    div.titre{
+        width:94.7%;
+    }
+}
+
+@media(max-width:735px){
+    div.titre{
+        width:94.6%;
+    }
+}
+
+@media(max-width:722px){
+    div.titre{
+        width:94.5%;
+    }
+}
+
+@media(max-width:709px){
+    div.titre{
+        width:94.4%;
+    }
+}
+
+@media(max-width:696px){
+    div.titre{
+        width:94.3%;
+    }
+}
+@media(max-width:684px){
+    div.titre{
+        width:94.2%;
+    }
+}
+
+@media(max-width:668px){
+    div.titre{
+        width:94.1%;
+    }
+}
+
+@media(max-width:666px){
+    div.titre{
+        width:94.1%;
+    }
+    div.propriétaire{
+       align-items: flex-start;
+    }
+    div.hébergeur{
+        align-items: flex-start;
+
+    }
+    div.Propriété{
+        align-items: flex-start;
+
+    }
+    div.Activité{
+        align-items: flex-start;
+
+    }
+    div.Cookies{
+        align-items: flex-start;
+
+    }
+
+    div.Description{
+        align-items: flex-start;
+
+    }
+}
+
+@media(max-width:661px){
+    div.titre{
+        width:94%;
+    }
+
+}
+
+@media(max-width:650px){
+    div.titre{
+        width:93.9%;
+    }
+}
+
+@media(max-width:639px){
+    div.titre{
+        width:93.8%;
+    }
+}
+
+@media(max-width:629px){
+    div.titre{
+        width:93.7%;
+    }
+
+
+}
+
+
+@media(max-width:619px){
+    div.titre{
+        width:93.6%;
+    }
+
+
+}
+
+@media(max-width:609px){
+    div.titre{
+        width:93.5%;
+    }
+
+
+}
+
+@media(max-width:600px){
+    div.titre{
+        width:93.4%;
+    }
+
+
+}
+
+@media(max-width:590px){
+    div.titre{
+        width:93.2%;
+    }
+
+
+}
+
+
+@media(max-width:573px){
+    div.titre{
+        width:93.1%;
+    }
+
+
+}
+
+
+@media(max-width:565px){
+    div.titre{
+        width:93%;
+    }
+
+
+}
+
+@media(max-width:557px){
+    div.titre{
+        width:92.9%;
+    }
+
+
+}
+
+
+@media(max-width:549px){
+    div.titre{
+        width:92.8%;
+    }
+
+
+}
+
+@media(max-width:541px){
+    div.titre{
+        width:92.7%;
+    }
+
+
+}
+
+@media(max-width:534px){
+    div.titre{
+        width:92.6%;
+    }
+
+
+}
+
+@media(max-width:526px){
+    div.titre{
+        width:92.5%;
+    }
+
+
+}
+
+@media(max-width:520px){
+    div.titre{
+        width:92.4%;
+    }
+
+
+}
+
+@media(max-width:520px){
+    div.titre{
+        width:92.3%;
+    }
+
+
+}
+
+@media(max-width:505px){
+    div.titre{
+        width:92.2%;
+    }
+
+
+}
+
+@media(max-width:505px){
+    div.titre{
+        width:92.1%;
+    }
+
+
+}
+
+@media(max-width:493px){
+    div.titre{
+        width:92%;
+    }
+
+
+}
+
+@media(max-width:487px){
+    div.titre{
+        width:91.9%;
+    }
+
+
+}
+
+@media(max-width:481px){
+    div.titre{
+        width:91.8%;
+    }
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
