@@ -272,3 +272,77 @@ li a:hover {
     color: #7a8499;
     font-size: 0.95rem;
 }
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #383d61;
+    width: 100%;
+    max-width: 1000px;/* On le limite à la même largeur que ton bloc À propos pour garder une harmonie */
+    /* REMPLACEMENT : On retire height: 156px et on met du padding pour laisser respirer */
+    padding: 40px 20px;
+    margin: 40px auto;
+    border-radius:10px ;
+    box-sizing: border-box;
+    border: 2px solid rgba(232, 244, 255, 0.1);
+}
+
+.MMI{
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.6;
+    color:#e8f4ff ;
+    font-family: 'Inter', sans-serif;
+    max-width: 800px;/* Évite que le texte s'étale trop sur les écrans ultra-larges */
+}
+
+.outils{
+    color: #e8f4ff;
+    font-size: 28px;
+    margin: 40px 0 20px 0;
+    font-family: 'Sora', sans-serif;
+}
+
+.grille-outils{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Style de chaque petite carte (reprend l'esprit de ton grand cadre .block) */
+.carte-outil{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #0a0e1a;
+    border:2px solid #0D22A4;
+    border-radius: 10px;
+    padding: 15px 25px;
+    transition: all 0.3 ease;
+}
+
+.carte-outil img{
+    width: 35px;
+    height: 35px;
+    object-fit: contain; /*adapté à son conteneur*/
+}
+
+/* Texte à l'intérieur des cartes */
+.carte-outil span {
+    color: #e8f4ff;
+    font-family: 'inter', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Effet au survol : légère montée + illumination de la bordure */
+.carte-outil:hover {
+    transform: translateY(-5px);
+    border-color: #4dd9ff; /* Couleur cyan de tes hovers de liens */
+    box-shadow: 0 4px 20px rgba(77, 217, 255, 0.15);
+    cursor: pointer;
+}
