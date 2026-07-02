@@ -107,3 +107,60 @@ li a:hover {
 .fragment-moyen:hover {
     transform: scale(1.05);
 }
+
+.propos{
+    text-align: center;
+    margin-top: 20px;
+    background-color: #6f4ee9bb;
+    color: #e8f4ff;
+    font-size: 40px;
+    justify-content: center;
+    border: 2px solid #0D22A4;
+    border-radius: 5px;
+    
+
+}
+
+.alternance,
+.durée,
+.rythme {
+    color: #4dd9ff;
+    font-weight: bold;
+}
+
+.block {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 20px auto 0 auto; /* Centre la boîte sur la page */
+    max-height: 75%;
+    height: 50%;
+    background-color: #0a0e1a;
+    border: 2px solid #0D22A4;
+    border-radius: 12px;
+    padding: 40px 20px ; /* Remplacement des % de hauteur par du padding interne (garde ton design intact sans bug) */
+}
+
+.image {
+    display: block;
+    width: 400px;
+    height:auto; /* Empêche l'image de s'écraser si le ratio change */
+    border-radius: 10px;
+    border: 2px solid #0D22A4;
+}
+
+.paragraphe-droite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.paragraphe {
+    color: #e8f4ff;
+    font-size: 30px;
+    line-height: 1.4;
+    justify-content: center;
+}
