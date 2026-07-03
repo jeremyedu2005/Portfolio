@@ -9,10 +9,8 @@
 html {
     scroll-behavior: smooth;
     height: 100%;
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
-    position: relative;
-
 
 }
 
@@ -25,12 +23,24 @@ h3 {
 body {
     background-color: #0a0e1a;
     font-family: 'inter', sans-serif;
-    overflow-x: hidden;
     width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    position: relative;
+    padding-top: 70px;
 }
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 60px;
+    background-color: rgba(11, 15, 26, 0.85);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    z-index: 99999;
 }
 
 nav {
@@ -48,8 +58,9 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    padding: 15px 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-links {
@@ -114,9 +125,11 @@ li a:hover {
 .fond-img {
     position: relative;
     width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    min-height: 100vh;
+    /* On pousse le CONTENU de la section (le texte) vers le bas pour ne pas qu'il soit sous le menu */
+    padding-top: 60px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -296,7 +309,6 @@ li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 15px;
     flex-wrap: wrap;
 }
 
@@ -314,20 +326,41 @@ li a:hover {
     min-width: 200px;
 }
 
-.content .date {
-    color: #4dd9ff;
-    font-weight: bold;
-    font-size: 0.95rem;
+.date {
+    font-size: 14px;
+    font-weight: 700;
+    color: #a3d2ff;
     white-space: nowrap;
-    text-align: right;
+    padding: 4px 8px;
+    background-color: rgba(168, 85, 247, 0.1);
+    border-radius: 6px;
+    align-self: flex-start;
 }
 
-.content .lieu {
-    color: #7a8499;
-    font-size: 0.95rem;
-    margin-top: 5px;
-    /* Correction de la syntaxe de la marge pour un espacement parfait sous le titre */
+.titre-diplome {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
 }
+
+.mention {
+    font-size: 13px;
+    font-weight: 600;
+    color: #a855f7;
+    font-style: italic;
+    margin: 0;
+}
+
+
+
+.lieu {
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+
 
 .presentation {
     display: flex;
@@ -848,7 +881,8 @@ footer {
         justify-content: center;
         align-items: center;
         gap: 0;
-        transform: translateX(100%); /* CORRECTIF : On s'assure que le menu caché ne pousse pas les murs de l'écran */
+        transform: translateX(100%);
+        /* CORRECTIF : On s'assure que le menu caché ne pousse pas les murs de l'écran */
         transition: margin-right 0.5s ease;
         z-index: 1000;
     }
