@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0a0e1a;
+    padding-bottom: 40px;
+    overflow-x: hidden;
+}
+
+.titre {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #141b30;
+    border-bottom: 2px solid #0D22A4;
+    padding: 30px 20px;
+    animation: fadeInUp 0.8s ease-out;
+}
+
+h1 {
+    color: #e8f4ff;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+}
+
+/* Chaque bloc de section (propriétaire, hébergeur, propriété, etc.) */
+.propriétaire,
+.hébergeur,
+.Propriété,
+.Activité,
+.Cookies,
+.Description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 40px auto 0 auto;
+    padding: 0 20px;
+    animation: fadeInUp 0.8s ease-out;
+}
+
+h2.editeur,
+h2.hébergement,
+h2.propriété,
+h2.portfolio,
+h2.Gestion,
+h2.site {
+    font-size: 28px;
+    color: #4dd9ff;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+p.propriétaire,
+.statut,
+.adresse,
+.e-mail,
+p.hébergeur-hébergeur,
+.AP,
+.adresse-hébergeur,
+.num-hébergeur,
+.lien-hébergeur,
+p.intellectuelle,
+p.activité,
+.professionnelle,
+p.Gestion-Cookies,
+p.Description-site {
+    font-size: 16px;
+    color: #c4ccd9;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    background-color: #141b30;
+    border-top: 2px solid #0D22A4;
+    color: #c4ccd9;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.legales {
+    color: #4dd9ff;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.legales:hover {
+    color: #e8f4ff;
+}
