@@ -8,6 +8,8 @@
 
 html {
     scroll-behavior: smooth;
+
+
 }
 
 h1,
@@ -38,7 +40,7 @@ nav {
 
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,13 +48,13 @@ nav {
     padding: 15px 0;
 }
 
-.nav-links{
+.nav-links {
     display: flex;
     justify-content: center;
     gap: 50px;
 }
 
-.menu-hamburger{
+.menu-hamburger {
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -66,7 +68,7 @@ nav {
     z-index: 10003;
 }
 
-.menu-hamburger span{
+.menu-hamburger span {
     display: block;
     width: 100%;
     height: 3px;
@@ -319,7 +321,8 @@ li a:hover {
 .content .lieu {
     color: #7a8499;
     font-size: 0.95rem;
-    margin-top: 5px; /* Correction de la syntaxe de la marge pour un espacement parfait sous le titre */
+    margin-top: 5px;
+    /* Correction de la syntaxe de la marge pour un espacement parfait sous le titre */
 }
 
 .presentation {
@@ -704,7 +707,7 @@ li a:hover {
     box-shadow: 0 4px 12px rgba(77, 217, 255, 0.3);
 }
 
-.information{
+.information {
     background-color: #6f4ee9bb;
     width: 98.9%;
     padding: 10px;
@@ -718,12 +721,12 @@ li a:hover {
     gap: 60px;
 }
 
-.git{
+.git {
     width: 60px;
     height: 60px;
 }
 
-footer{
+footer {
     width: 100%;
     background-color: #1B1F3B;
     color: white;
@@ -733,7 +736,7 @@ footer{
     margin-top: 40px;
 }
 
-footer{
+footer {
     width: 100%;
     background-color: #141b30;
     border-top: 2px solid #0D22A4;
@@ -744,26 +747,28 @@ footer{
     text-align: center;
 }
 
-.mentions{
+.mentions {
     color: #7a8499;
     font-size: 14px;
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
 }
 
-.legales{
+.legales {
     color: #4dd9ff;
     text-decoration: underline;
-    transition: color 0.3s ease; /* Correction avec '0.3s ease' */
+    transition: color 0.3s ease;
+    /* Correction avec '0.3s ease' */
 }
 
-.legales:hover{
+.legales:hover {
     color: #e8f4ff;
 }
 
 
 /* ==================== 🛠️ AJUSTEMENT GLOBAL POUR LA ZONE CRITIQUE DES 1080PX / TABLETTES ==================== */
 @media screen and (max-width: 1100px) {
+
     /* Diminution générale de la taille des gros paragraphes pour éviter les débordements */
     .paragraphe {
         font-size: 22px;
@@ -786,7 +791,8 @@ footer{
     }
 
     .image {
-        width: 320px; /* Réduction légère de l'image de profil pour donner de l'air au texte */
+        width: 320px;
+        /* Réduction légère de l'image de profil pour donner de l'air au texte */
     }
 
     /* Déclenchement de la timeline en une seule colonne pour éviter les textes compressés */
@@ -808,12 +814,12 @@ footer{
         left: 21px;
         right: auto;
     }
-    
+
     /* Adaptation de la taille des cartes de projets */
     .carte-projet {
         width: 340px;
     }
-    
+
     .projets-image img {
         height: 190px;
     }
@@ -865,33 +871,33 @@ body.menu-open {
     overflow: hidden;
 }
 
-@media screen and (max-width: 480px){
-    .fond-img h1{
+@media screen and (max-width: 480px) {
+    .fond-img h1 {
         font-size: 2.2rem;
         padding: 0 10px;
     }
 
-    .propos{
-        font-size:28px;
+    .propos {
+        font-size: 28px;
         padding: 10px;
         margin-top: 10px;
     }
 
-    .block{
+    .block {
         flex-direction: column;
         height: auto;
         max-height: none;
         padding: 25px 15px;
-        gap:25px;
+        gap: 25px;
     }
 
-    .image{
+    .image {
         width: 100%;
         max-width: 280px;
         margin: 0 auto;
     }
 
-    .paragraphe{
+    .paragraphe {
         font-size: 18px;
         text-align: center;
     }
@@ -902,84 +908,84 @@ body.menu-open {
     }
 
     .container-gauche,
-    .container-droite{
+    .container-droite {
         width: 100%;
-        padding-left:45px;
+        padding-left: 45px;
         float: none;
         clear: both;
     }
 
     .container-gauche::after,
-    .container-droite::after{
+    .container-droite::after {
         left: 11px;
         right: auto;
     }
 
-    .content{
+    .content {
         grid-template-columns: 1fr;
         row-gap: 5px;
         padding: 15px;
     }
 
-    .content .date{
+    .content .date {
         grid-column: 1;
         grid-row: 2;
         text-align: left;
     }
 
-    .content .lieu{
+    .content .lieu {
         grid-column: 1;
-        grid-row:3;
+        grid-row: 3;
     }
 
-    .presentation{
+    .presentation {
         padding: 25px 15px;
         margin: 25px auto;
     }
 
-    .MMI{
+    .MMI {
         font-size: 16px;
     }
 
-    .outils{
+    .outils {
         font-size: 22px;
         text-align: center;
     }
 
-    .grille-outils{
+    .grille-outils {
         justify-content: center;
         gap: 12px;
     }
 
-    .carte-outil{
+    .carte-outil {
         width: 100%;
         max-width: 280px;
-        padding: 12px 20px; 
+        padding: 12px 20px;
     }
 
-    .projets{
+    .projets {
         font-size: 16px;
     }
 
-    .projets-container{
+    .projets-container {
         padding: 0 20px;
-        gap:20px;
+        gap: 20px;
     }
 
-    .carte-projet{
+    .carte-projet {
         width: 100%;
         max-width: 320px;
     }
 
-    .projets-image img{
+    .projets-image img {
         height: 180px;
     }
 
-    .projet-content{
+    .projet-content {
         padding: 15px;
     }
 
-    .projet-titre{
+    .projet-titre {
         font-size: 18px;
     }
 
@@ -1036,4 +1042,3 @@ body.menu-open {
     opacity: 1;
     transform: translateY(0);
 }
-
