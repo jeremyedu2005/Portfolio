@@ -655,6 +655,35 @@ li a:hover {
     box-shadow: 0 4px 12px rgba(77, 217, 255, 0.3);
 }
 
+.information{
+    background-color: #6f4ee9bb;
+    width: 98.9%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.contact ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+
+.git{
+    width: 60px;
+    height: 60px;
+}
+
+footer{
+    width: 100%;
+    background-color: #1B1F3B;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
 footer{
     width: 100%;
     background-color: #141b30;
