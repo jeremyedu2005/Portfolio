@@ -360,7 +360,7 @@
             <!-- Ton prochain projet viendra ici, en copiant exactement le même bloc .carte-projet -->
         </div>
     </section>
-
+<!--méthode pour faire apparaitre le modal!-->
     <div id="modal-container" class="modal-hidden">
         <div class="modal-cadre">
             <button id="modal-close" aria-label="Fermer">&times;</button>
@@ -368,14 +368,33 @@
         </div>
     </div>
 
+    <section class="intro">
+        <h2 class="propos"> CONTACT</h2>
+        <div class="rectangle">
+            <div class="formulaire">
+                <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="f0be8b6b-8639-4349-805f-f5245b69e136">
+                    <input type="hidden" name="redirect" value="https://raodson-jeremy.com/merci.html">
 
+                    <div class="renseignement">
+                        <input class="nom" type="text" name="nom" placeholder="Votre nom" required>
+                        <input class="prenom" type="text" name="prebom" placeholder="Votre prénom" required>
+                        <input type="hidden" name="to" value="jraodson@gmail.com">
+                    </div>
+                    <div class="mail">
+                        <input class="email" type="email" name="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="écrire">
+                        <textarea class="message" name="message" placeholder="Votre message" required></textarea>
+                    </div>
+                    <div class="bouton">
+                        <button class="Envoyer" type="submit">Envoyer</button>
 
-
-
-
-    <section class="intro">Contact</section>
-
-    Faire un formulaire
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <p class="mentions"> &copy;Droits d'auteurs 2025-RAODSON Miaro Jérémy-Tous droits réservés-<a class="legales"
