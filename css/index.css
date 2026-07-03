@@ -8,6 +8,10 @@
 
 html {
     scroll-behavior: smooth;
+    height: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
 
 
 }
@@ -844,13 +848,14 @@ footer {
         justify-content: center;
         align-items: center;
         gap: 0;
-        margin-right: -100%;
+        transform: translateX(100%); /* CORRECTIF : On s'assure que le menu caché ne pousse pas les murs de l'écran */
         transition: margin-right 0.5s ease;
         z-index: 1000;
     }
 
+    /* Quand le menu est ouvert, on le remet à sa position d'origine */
     .nav-links.mobile-menu {
-        margin-right: 0;
+        transform: translateX(0);
     }
 
     .nav-links li {
@@ -862,6 +867,7 @@ footer {
     }
 }
 
+/* Sécurité pour le body quand le menu est ouvert */
 body.menu-open {
     overflow: hidden;
 }
