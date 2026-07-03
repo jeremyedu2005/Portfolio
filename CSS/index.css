@@ -38,6 +38,55 @@ nav {
 
 }
 
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 15px 0;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.menu-hamburger{
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 22px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    transform: translateY(-50%);
+    z-index: 10003;
+}
+
+.menu-hamburger span{
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #c4ccd9;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+.menu-hamburger.active span:nth-child(1) {
+    transform: translateY(9.5px) rotate(45deg);
+}
+
+.menu-hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-hamburger.active span:nth-child(3) {
+    transform: translateY(-9.5px) rotate(-45deg);
+}
+
 ul {
     display: flex;
     justify-content: center;
@@ -231,11 +280,18 @@ li a:hover {
     border: 2px solid #0D22A4;
     border-radius: 10px;
     padding: 20px 25px;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    column-gap: 15px;
-    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+    flex-wrap: wrap;
 }
 
 .content:hover {
@@ -243,34 +299,27 @@ li a:hover {
     box-shadow: 0 0 20px rgba(77, 217, 255, 0.25);
 }
 
-/* Formation : tout en haut, prend la colonne de gauche */
 .content h2 {
-    grid-column: 1;
-    grid-row: 1;
     color: #e8f4ff;
     font-size: 1.25rem;
     font-weight: 600;
     line-height: 1.3;
+    flex: 1;
+    min-width: 200px;
 }
 
-/* Date : alignée à droite, même ligne que la formation */
 .content .date {
-    grid-column: 2;
-    grid-row: 1;
     color: #4dd9ff;
     font-weight: bold;
     font-size: 0.95rem;
     white-space: nowrap;
-    align-self: start;
     text-align: right;
 }
 
-/* Lieu : en bas, sur toute la largeur */
 .content .lieu {
-    grid-column: 1 / -1;
-    grid-row: 2;
     color: #7a8499;
     font-size: 0.95rem;
+    margin-top: 5px; /* Correction de la syntaxe de la marge pour un espacement parfait sous le titre */
 }
 
 .presentation {
@@ -325,7 +374,7 @@ li a:hover {
     border: 2px solid #0D22A4;
     border-radius: 10px;
     padding: 15px 25px;
-    transition: all 0.3 ease;
+    transition: all 0.3s ease;
 }
 
 .carte-outil img {
@@ -705,9 +754,286 @@ footer{
 .legales{
     color: #4dd9ff;
     text-decoration: underline;
-    transition: color 0.3ease;
+    transition: color 0.3s ease; /* Correction avec '0.3s ease' */
 }
 
 .legales:hover{
     color: #e8f4ff;
 }
+
+
+/* ==================== 🛠️ AJUSTEMENT GLOBAL POUR LA ZONE CRITIQUE DES 1080PX / TABLETTES ==================== */
+@media screen and (max-width: 1100px) {
+    /* Diminution générale de la taille des gros paragraphes pour éviter les débordements */
+    .paragraphe {
+        font-size: 22px;
+    }
+
+    .fond-img h1 {
+        font-size: 2.8rem;
+    }
+
+    .propos {
+        font-size: 32px;
+    }
+
+    /* Le bloc à propos s'adapte en hauteur et réduit ses paddings */
+    .block {
+        height: auto;
+        max-height: none;
+        padding: 30px 20px;
+        gap: 20px;
+    }
+
+    .image {
+        width: 320px; /* Réduction légère de l'image de profil pour donner de l'air au texte */
+    }
+
+    /* Déclenchement de la timeline en une seule colonne pour éviter les textes compressés */
+    .Timeline::after {
+        left: 30px;
+    }
+
+    .container-gauche,
+    .container-droite {
+        width: 100%;
+        padding-left: 65px;
+        padding-right: 20px;
+        float: none;
+        clear: both;
+    }
+
+    .container-gauche::after,
+    .container-droite::after {
+        left: 21px;
+        right: auto;
+    }
+    
+    /* Adaptation de la taille des cartes de projets */
+    .carte-projet {
+        width: 340px;
+    }
+    
+    .projets-image img {
+        height: 190px;
+    }
+}
+
+/* ==================== DESIGN RESPONSIVE TABLETTES PORTRAIT (MAX 920PX) ==================== */
+@media screen and (max-width: 920px) {
+    .menu-hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 70%;
+        max-width: 320px;
+        height: 100vh;
+        background-color: rgba(20, 27, 48, 0.98);
+        backdrop-filter: blur(8px);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        margin-right: -100%;
+        transition: margin-right 0.5s ease;
+        z-index: 1000;
+    }
+
+    .nav-links.mobile-menu {
+        margin-right: 0;
+    }
+
+    .nav-links li {
+        margin: 20px 0;
+    }
+
+    .nav-links li a {
+        font-size: 22px;
+    }
+}
+
+body.menu-open {
+    overflow: hidden;
+}
+
+
+body.menu-open {
+    overflow: hidden;
+}
+
+@media screen and (max-width: 480px){
+    .fond-img h1{
+        font-size: 2.2rem;
+        padding: 0 10px;
+    }
+
+    .propos{
+        font-size:28px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .block{
+        flex-direction: column;
+        height: auto;
+        max-height: none;
+        padding: 25px 15px;
+        gap:25px;
+    }
+
+    .image{
+        width: 100%;
+        max-width: 280px;
+        margin: 0 auto;
+    }
+
+    .paragraphe{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    /* Ajustements de la Timeline en une seule colonne sur mobile */
+    .Timeline::after {
+        left: 20px;
+    }
+
+    .container-gauche,
+    .container-droite{
+        width: 100%;
+        padding-left:45px;
+        float: none;
+        clear: both;
+    }
+
+    .container-gauche::after,
+    .container-droite::after{
+        left: 11px;
+        right: auto;
+    }
+
+    .content{
+        grid-template-columns: 1fr;
+        row-gap: 5px;
+        padding: 15px;
+    }
+
+    .content .date{
+        grid-column: 1;
+        grid-row: 2;
+        text-align: left;
+    }
+
+    .content .lieu{
+        grid-column: 1;
+        grid-row:3;
+    }
+
+    .presentation{
+        padding: 25px 15px;
+        margin: 25px auto;
+    }
+
+    .MMI{
+        font-size: 16px;
+    }
+
+    .outils{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .grille-outils{
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .carte-outil{
+        width: 100%;
+        max-width: 280px;
+        padding: 12px 20px; 
+    }
+
+    .projets{
+        font-size: 16px;
+    }
+
+    .projets-container{
+        padding: 0 20px;
+        gap:20px;
+    }
+
+    .carte-projet{
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .projets-image img{
+        height: 180px;
+    }
+
+    .projet-content{
+        padding: 15px;
+    }
+
+    .projet-titre{
+        font-size: 18px;
+    }
+
+    /* Ajustement de la Fenêtre Modale sur mobile */
+    .modal-cadre {
+        padding: 30px 15px;
+    }
+
+    .modal-titre {
+        font-size: 20px;
+    }
+
+    .modal-text-long {
+        font-size: 14px;
+    }
+
+    /* Formulaire de Contact */
+    .rectangle {
+        padding: 20px 15px;
+        min-height: auto;
+    }
+
+    .renseignement {
+        flex-direction: column;
+        margin-top: 15px;
+        gap: 15px;
+    }
+
+    .nom,
+    .prenom {
+        width: 100%;
+    }
+
+    .contact ul {
+        gap: 30px;
+    }
+
+    .git {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/* ==================== SYSTEME D'ANIMATION AU DEFILEMENT (SAMSUNG STYLE) ==================== */
+
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s cubic-bezier(0.215, 0.610, 0.355, 1), transform 0.8s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+/* Classe active déclenchée par l'IntersectionObserver */
+.scroll-reveal.reveal-active {
+    opacity: 1;
+    transform: translateY(0);
+}
+

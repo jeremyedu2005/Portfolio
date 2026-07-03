@@ -14,19 +14,21 @@
 
 <body>
     <header>
-        <nav>
-            <ul>
+        <nav class="navbar">
+            <ul class="nav-links">
                 <li><a href="#intro">A PROPOS</a></li>
-                <li><a href="#compétences">PARCOURS ACADEMIQUE</a></li>
-                <li><a href="#">TEST3</a></li>
-                <li><a href="#">TEST4</a></li>
-                <li><a href="#">TEST5</a></li>
-                <li><a href="#">TEST6</a></li>
-
+                <li><a href="#parcours">PARCOURS ACADEMIQUE</a></li>
+                <li><a href="#compétences">COMPETENCES</a></li>
+                <li><a href="#projets">PROJETS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
+            <div class="menu-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </header>
-
     <div class="fond-img">
         <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1367" height="773" viewBox="0 0 1367 773"
             preserveAspectRatio="xMidYMid slice">
@@ -185,7 +187,7 @@
         <h1> RAODSON Jérémy <br> Portfolio</h1>
     </div>
 
-    <section id="intro" class="section-container">
+    <section id="intro" class="section-container scroll-reveal">
         <h1 class="propos">A PROPOS</h1>
         <div class="block">
             <div class="img-gauche">
@@ -207,35 +209,45 @@
         </div>
     </section>
 
-    <section id="parcours" class="section-container">
-        <h1 class="propos"> Parcours Académique</h1>
+    <section id="parcours" class="section-container scroll-reveal">
+        <h1 class="propos">PARCOURS ACADEMIQUE</h1>
+
         <div class="Timeline">
+
             <div class="container-gauche">
                 <div class="content">
-                    <h2>BUT Métiers du Multimédia et de l'Internet (parcours développement web)</h2>
-                    <p class="lieu"> IUT de Bobigny</p>
-                    <p class="date"> 2024 - en cours</p>
+                    <div class="content-header">
+                        <h2>BUT Métiers du Multimédia et de l'Internet (parcours développement web)</h2>
+                        <span class="date">2024 - en cours</span>
+                    </div>
+                    <span class="lieu">IUT de Bobigny</span>
                 </div>
             </div>
 
             <div class="container-droite">
                 <div class="content">
-                    <h2>BUT Réseaux et Télécommunications</h2>
-                    <p class="lieu"> IUT de Villetaneuse</p>
-                    <p class="date">2023 - 2024</p>
+                    <div class="content-header">
+                        <h2>BUT Réseaux et Télécommunications</h2>
+                        <span class="date">2023 - 2024</span>
+                    </div>
+                    <span class="lieu">IUT de Villetaneuse</span>
                 </div>
             </div>
 
             <div class="container-gauche">
                 <div class="content">
-                    <h2> Baccalauréat STI2D</h2>
-                    <p class="lieu">Lycée Simone de Beauvoir</p>
-                    <p class="date">2023</p>
+                    <div class="content-header">
+                        <h2>Baccalauréat STI2D</h2>
+                        <span class="date">2023</span>
+                    </div>
+                    <span class="lieu">Lycée Simone de Beauvoir</span>
                 </div>
             </div>
+
+        </div>
     </section>
 
-    <section id="compétences" class="section-container">
+    <section id="compétences" class="section-container scroll-reveal" >
         <h2 class="propos">COMPETENCES</h2>
         <div class="presentation">
             <p class="MMI"> Le BUT MMI (Métiers du Multimédia et de l’Internet) est une formation professionnalisante
@@ -249,33 +261,33 @@
         </div>
         <h3 class="outils"> Outils Artistiques</h3>
 
-        <div class="grille-outils">
+        <div class="grille-outils scroll-reveal">
             <div class="carte-outil">
                 <img src="img/Photoshop.webp" alt="Photoshop" title="Photoshop">
                 <span> Photoshop</span>
             </div>
 
             <div class="carte-outil">
-                <img src="img/illustrator.webp" alt="Illustrator" title="Illustrator">
+                <img src="img/illustrator.webp scroll-reveal" alt="Illustrator" title="Illustrator">
                 <span> Illustrator</span>
             </div>
 
-            <div class="carte-outil">
+            <div class="carte-outil scroll-reveal">
                 <img src="img/Figma.webp" alt="Figma" title="Figma">
                 <span> Figma</span>
             </div>
 
-            <div class="carte-outil">
+            <div class="carte-outil scroll-reveal">
                 <img src="img/davinci.webp" alt="DavinciResolve" title="DavinciResolve">
                 <span>DavinciResolve</span>
             </div>
 
-            <div class="carte-outil">
+            <div class="carte-outil scroll-reveal">
                 <img src="img/jimdo.webp" alt="jimdo" title="jimdo">
                 <span>Jimdo</span>
             </div>
 
-            <div class="carte-outil">
+            <div class="carte-outil scroll-reveal">
                 <img src="img/inDesign.webp" alt="inDesign" title="inDesign">
                 <span>inDesign</span>
             </div>
@@ -283,37 +295,37 @@
 
         <h3 class="outils"> Outils de développement </h3>
         <div class="grille-outils">
-            <div class="carte-outil">
+            <div class="carte-outil scroll-reveal">
                 <img src="img/HTML.webp" alt="HTML" title="HTML">
                 <span>HTML</span>
             </div>
 
-            <div class="carte-outil">
+            <div class="carte-outil scroll-reveal">
                 <img src="img/css.webp" alt="CSS" title="CSS">
                 <span>CSS</span>
             </div>
 
-            <div class="carte-outil">
+            <div class="carte-outil scroll-reveal">
                 <img src="img/JS.webp" alt="JS" title="JS">
                 <span>JavaScript</span>
             </div>
 
-            <div class="carte-outil">
+            <div class="carte-outil scroll-reveal">
                 <img src="img/PHP.webp" alt="PHP" title="PHP">
                 <span>PHP</span>
             </div>
 
-            <div class="carte-outil">
+            <div class="carte-outil scroll-reveal">
                 <img src="img/SQL.webp" alt="SQL" title="SQL">
                 <span>SQL</span>
             </div>
 
-            <div class="carte-outil">
+            <div class="carte-outil scroll-reveal">
                 <img src="img/React.webp" alt="React.js" title="React.js">
                 <span>React.js</span>
             </div>
 
-            <div class="carte-outil">
+            <div class="carte-outil scroll-reveal">
                 <img src="img/laravel.webp" alt="laravel.js" title="laravel.js">
                 <span>Laravel</span>
             </div>
@@ -321,8 +333,8 @@
     </section>
 
 
-    <section class="intro">
-        <h2 class="propos">projets</h2>
+    <section id="projets" class="section-container scroll-reveal">
+        <h2 class="propos">PROJETS</h2>
         <p class="projets">Au cours de ma formation j'ai pu réaliser des projets académiques mais aussi personnels</p>
 
         <div class="projets-container">
@@ -358,7 +370,7 @@
                 </div>
             </div>
             <!-- Ton prochain projet viendra ici, en copiant exactement le même bloc .carte-projet -->
-            <div class="carte-projet">
+            <div class="carte-projet scroll-reveal">
                 <div class="projets-image">
                     <img src="img/logo-porsche.webp" alt="logo Porsche" title="logo Porsche">
                 </div>
@@ -385,7 +397,8 @@
                             animations CSS et le JavaScript. L'essentiel de mon travail s'est concentré sur la
                             structure, la pertinence du contenu et la qualité de l'expérience utilisateur.</p>
                         <div class="modal-technos"><strong>Technologies:</strong> HTML, CSS, JavaScript</div>
-                        <a href="https://jeremyedu2005.github.io/Porsche/" target="_blank" class="btn-voir-projet">Voir le projet</a>
+                        <a href="https://jeremyedu2005.github.io/Porsche/" target="_blank" class="btn-voir-projet">Voir
+                            le projet</a>
                     </template>
                 </div>
             </div>
@@ -399,7 +412,7 @@
         </div>
     </div>
 
-    <section class="intro">
+    <section class="contact" class="section-container scroll-reveal">
         <h2 class="propos"> CONTACT</h2>
         <div class="rectangle">
             <div class="formulaire">
