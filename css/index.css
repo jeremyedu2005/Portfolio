@@ -168,7 +168,7 @@ li a:hover {
     transform-box: fill-box;
     transform-origin: center;
     pointer-events: auto;
-    /* Force la souris à détectet les fragments 
+    /* Force la souris à détectet les fragments*/
 }
 
 .fragment-moyen:hover {
