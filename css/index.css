@@ -167,6 +167,8 @@ li a:hover {
     transition: transform 0.3s ease;
     transform-box: fill-box;
     transform-origin: center;
+    pointer-events: auto;
+    /* Force la souris à détectet les fragments 
 }
 
 .fragment-moyen:hover {
@@ -435,7 +437,7 @@ li a:hover {
     border-color: #7d5df1;
     /* Couleur cyan de tes hovers de liens */
     box-shadow: 0 4px 20px rgba(77, 217, 255, 0.15);
-
+    
 }
 
 .projets {
