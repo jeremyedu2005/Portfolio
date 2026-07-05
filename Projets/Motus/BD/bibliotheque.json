@@ -1,0 +1,1616 @@
+{
+  "dictionnaire": {
+    "A": [
+      {
+        "mot": "ANAKIN",
+        "categorie": "personnage",
+        "indice": "Père de Luke, ex-Jedi"
+      },
+      {
+        "mot": "ACKBAR",
+        "categorie": "personnage",
+        "indice": "'C'est un piège!'"
+      },
+      {
+        "mot": "AHCHTO",
+        "categorie": "planete",
+        "indice": "Île où Luke se cache"
+      },
+      {
+        "mot": "ATAT",
+        "categorie": "vehicule",
+        "indice": "Marcheur à quatre pattes"
+      },
+      {
+        "mot": "AWING",
+        "categorie": "vaisseau",
+        "indice": "Chasseur rebelle rapide"
+      },
+      {
+        "mot": "ALDERAAN",
+        "categorie": "planete",
+        "indice": "Détruite par l'Étoile de la Mort"
+      },
+      {
+        "mot": "AHSOKA",
+        "categorie": "personnage",
+        "indice": "Padawan d'Anakin"
+      },
+      {
+        "mot": "ARTOO",
+        "categorie": "droid",
+        "indice": "Nom familier de R2"
+      },
+      {
+        "mot": "ADMIRAL",
+        "categorie": "titre",
+        "indice": "Grade d'Ackbar ou Thrawn"
+      },
+      {
+        "mot": "ATST",
+        "categorie": "vehicule",
+        "indice": "Marcheur bipède impérial"
+      },
+      {
+        "mot": "AZIZ",
+        "categorie": "personnage",
+        "indice": "Pilote rebelle à Yavin"
+      },
+      {
+        "mot": "ARCONA",
+        "categorie": "espece",
+        "indice": "Espèce à trois yeux"
+      }
+    ],
+    "B": [
+      {
+        "mot": "BOBA",
+        "categorie": "personnage",
+        "indice": "Chasseur de primes en armure"
+      },
+      {
+        "mot": "BESPIN",
+        "categorie": "planete",
+        "indice": "Ville dans les nuages"
+      },
+      {
+        "mot": "BANTHA",
+        "categorie": "creature",
+        "indice": "Monture des Tuskens"
+      },
+      {
+        "mot": "BWING",
+        "categorie": "vaisseau",
+        "indice": "Chasseur en croix rebelle"
+      },
+      {
+        "mot": "BLASTER",
+        "categorie": "arme",
+        "indice": "Pistolet laser standard"
+      },
+      {
+        "mot": "BOBAFETT",
+        "categorie": "personnage",
+        "indice": "Fils de Jango Fett"
+      },
+      {
+        "mot": "BITH",
+        "categorie": "espece",
+        "indice": "Musiciens à gros crâne"
+      },
+      {
+        "mot": "BOSSK",
+        "categorie": "personnage",
+        "indice": "Chasseur reptilien"
+      },
+      {
+        "mot": "BATTLE",
+        "categorie": "evenement",
+        "indice": "Combat spatial ou terrestre"
+      },
+      {
+        "mot": "BUNKER",
+        "categorie": "lieu",
+        "indice": "Base fortifiée sur Endor"
+      },
+      {
+        "mot": "BIGGS",
+        "categorie": "personnage",
+        "indice": "Ami d'enfance de Luke"
+      },
+      {
+        "mot": "BANE",
+        "categorie": "personnage",
+        "indice": "Darth Bane, ancien Seigneur Sith"
+      }
+    ],
+    "C": [
+      {
+        "mot": "CHEWIE",
+        "categorie": "personnage",
+        "indice": "Wookiee, copilote du Faucon"
+      },
+      {
+        "mot": "CORUSCANT",
+        "categorie": "planete",
+        "indice": "Capitale galactique"
+      },
+      {
+        "mot": "CLOUDCITY",
+        "categorie": "lieu",
+        "indice": "Ville flottante sur Bespin"
+      },
+      {
+        "mot": "CLONE",
+        "categorie": "concept",
+        "indice": "Soldat cloné de Kamino"
+      },
+      {
+        "mot": "CORELLIA",
+        "categorie": "planete",
+        "indice": "Planète natale de Han Solo"
+      },
+      {
+        "mot": "CHEWBACCA",
+        "categorie": "personnage",
+        "indice": "Nom complet de Chewie"
+      },
+      {
+        "mot": "CANTONICA",
+        "categorie": "planete",
+        "indice": "Planète du casino Canto Bight"
+      },
+      {
+        "mot": "CASSIAN",
+        "categorie": "personnage",
+        "indice": "Espion rebelle de Rogue One"
+      },
+      {
+        "mot": "CHIRRUT",
+        "categorie": "personnage",
+        "indice": "Gardien aveugle de la Force"
+      },
+      {
+        "mot": "CRUISER",
+        "categorie": "vaisseau",
+        "indice": "Grand vaisseau de guerre"
+      },
+      {
+        "mot": "CALRISSIAN",
+        "categorie": "personnage",
+        "indice": "Lando Calrissian"
+      },
+      {
+        "mot": "CADBANE",
+        "categorie": "personnage",
+        "indice": "Chasseur de primes Duros"
+      }
+    ],
+    "D": [
+      {
+        "mot": "DOOKU",
+        "categorie": "personnage",
+        "indice": "Comte Sith, maître de Grievous"
+      },
+      {
+        "mot": "DEATHSTAR",
+        "categorie": "vaisseau",
+        "indice": "Étoile de la Mort"
+      },
+      {
+        "mot": "DROIDEKA",
+        "categorie": "droid",
+        "indice": "Droïde destructeur roulant"
+      },
+      {
+        "mot": "DAGOBAH",
+        "categorie": "planete",
+        "indice": "Marais où vit Yoda"
+      },
+      {
+        "mot": "DROID",
+        "categorie": "concept",
+        "indice": "Robot artificiel"
+      },
+      {
+        "mot": "DUROS",
+        "categorie": "espece",
+        "indice": "Espèce à peau bleue, pilotes"
+      },
+      {
+        "mot": "DANTOOINE",
+        "categorie": "planete",
+        "indice": "Ancienne base rebelle"
+      },
+      {
+        "mot": "DARKSABER",
+        "categorie": "arme",
+        "indice": "Sabre noir mandalorien"
+      },
+      {
+        "mot": "DENGAR",
+        "categorie": "personnage",
+        "indice": "Chasseur de primes bandé"
+      },
+      {
+        "mot": "DEXTER",
+        "categorie": "personnage",
+        "indice": "Patron du diner sur Coruscant"
+      },
+      {
+        "mot": "DATHOMIR",
+        "categorie": "planete",
+        "indice": "Planète des Nightsisters"
+      },
+      {
+        "mot": "DODONNA",
+        "categorie": "personnage",
+        "indice": "Général rebelle à Yavin"
+      }
+    ],
+    "E": [
+      {
+        "mot": "ENDO",
+        "categorie": "planete",
+        "indice": "Lune forestière des Ewoks"
+      },
+      {
+        "mot": "EWOK",
+        "categorie": "espece",
+        "indice": "Petits guerriers poilus"
+      },
+      {
+        "mot": "EMPIRE",
+        "categorie": "faction",
+        "indice": "Régime de Palpatine"
+      },
+      {
+        "mot": "EXEGOL",
+        "categorie": "planete",
+        "indice": "Monde caché des Sith"
+      },
+      {
+        "mot": "EXECUTOR",
+        "categorie": "vaisseau",
+        "indice": "Super Star Destroyer de Vador"
+      },
+      {
+        "mot": "ERAVANA",
+        "categorie": "vaisseau",
+        "indice": "Cargo de Han Solo"
+      },
+      {
+        "mot": "ECHOBASE",
+        "categorie": "lieu",
+        "indice": "Base rebelle sur Hoth"
+      },
+      {
+        "mot": "ENFYS",
+        "categorie": "personnage",
+        "indice": "Chef des Cloud-Riders"
+      },
+      {
+        "mot": "EVANPIEL",
+        "categorie": "personnage",
+        "indice": "Pilote rebelle"
+      },
+      {
+        "mot": "ELITE",
+        "categorie": "groupe",
+        "indice": "Death Troopers d'élite"
+      },
+      {
+        "mot": "EMPEROR",
+        "categorie": "titre",
+        "indice": "Titre de Palpatine"
+      },
+      {
+        "mot": "EZRA",
+        "categorie": "personnage",
+        "indice": "Jedi de la série Rebels"
+      }
+    ],
+    "F": [
+      {
+        "mot": "FALCON",
+        "categorie": "vaisseau",
+        "indice": "Millennium Falcon"
+      },
+      {
+        "mot": "FINN",
+        "categorie": "personnage",
+        "indice": "Stormtrooper devenu rebelle"
+      },
+      {
+        "mot": "FORCE",
+        "categorie": "concept",
+        "indice": "Énergie mystique galactique"
+      },
+      {
+        "mot": "FELUCIA",
+        "categorie": "planete",
+        "indice": "Planète champignon colorée"
+      },
+      {
+        "mot": "FIRSTORDER",
+        "categorie": "faction",
+        "indice": "Successeur de l'Empire"
+      },
+      {
+        "mot": "FREECO",
+        "categorie": "vehicule",
+        "indice": "Moto des neiges"
+      },
+      {
+        "mot": "FODE",
+        "categorie": "personnage",
+        "indice": "Commentateur podrace à deux têtes"
+      },
+      {
+        "mot": "FORTRESS",
+        "categorie": "lieu",
+        "indice": "Forteresse de Vador sur Mustafar"
+      },
+      {
+        "mot": "FLAME",
+        "categorie": "arme",
+        "indice": "Lance-flammes mandalorien"
+      },
+      {
+        "mot": "FURY",
+        "categorie": "vaisseau",
+        "indice": "Vaisseau de combat rapide"
+      },
+      {
+        "mot": "FIGHTER",
+        "categorie": "vaisseau",
+        "indice": "Chasseur stellaire générique"
+      },
+      {
+        "mot": "FETT",
+        "categorie": "personnage",
+        "indice": "Famille de chasseurs de primes"
+      }
+    ],
+    "G": [
+      {
+        "mot": "GREEDO",
+        "categorie": "personnage",
+        "indice": "Rodien qui tire le premier"
+      },
+      {
+        "mot": "GUNGAN",
+        "categorie": "espece",
+        "indice": "Amphibiens de Naboo"
+      },
+      {
+        "mot": "GEONOSIS",
+        "categorie": "planete",
+        "indice": "Planète des usines droïdes"
+      },
+      {
+        "mot": "GAMORREEN",
+        "categorie": "espece",
+        "indice": "Gardiens porcs de Jabba"
+      },
+      {
+        "mot": "GRIEVOUS",
+        "categorie": "personnage",
+        "indice": "Général cyborg à quatre bras"
+      },
+      {
+        "mot": "GHOST",
+        "categorie": "vaisseau",
+        "indice": "Vaisseau de l'équipage de Rebels"
+      },
+      {
+        "mot": "GALAXY",
+        "categorie": "concept",
+        "indice": "Une galaxie lointaine"
+      },
+      {
+        "mot": "GRANDMOFF",
+        "categorie": "titre",
+        "indice": "Grade suprême impérial"
+      },
+      {
+        "mot": "GREEF",
+        "categorie": "personnage",
+        "indice": "Agent de la Guilde des chasseurs"
+      },
+      {
+        "mot": "GUNRAY",
+        "categorie": "personnage",
+        "indice": "Viceroy de la Fédération"
+      },
+      {
+        "mot": "GUNSHIP",
+        "categorie": "vaisseau",
+        "indice": "Transport d'assaut clone"
+      },
+      {
+        "mot": "GAUNTLET",
+        "categorie": "vaisseau",
+        "indice": "Vaisseau mandalorien de Maul"
+      }
+    ],
+    "H": [
+      {
+        "mot": "HAN",
+        "categorie": "personnage",
+        "indice": "Contrebandier au Faucon"
+      },
+      {
+        "mot": "HOTH",
+        "categorie": "planete",
+        "indice": "Planète glacée avec wampas"
+      },
+      {
+        "mot": "HUTT",
+        "categorie": "espece",
+        "indice": "Gangsters limaces"
+      },
+      {
+        "mot": "HYPERDRIVE",
+        "categorie": "technologie",
+        "indice": "Moteur hyperspatial"
+      },
+      {
+        "mot": "HYPERESPACE",
+        "categorie": "concept",
+        "indice": "Dimension de voyage rapide"
+      },
+      {
+        "mot": "HOLOCRON",
+        "categorie": "objet",
+        "indice": "Cube de savoir Jedi"
+      },
+      {
+        "mot": "HONDO",
+        "categorie": "personnage",
+        "indice": "Pirate Weequay opportuniste"
+      },
+      {
+        "mot": "HUX",
+        "categorie": "personnage",
+        "indice": "Général du Premier Ordre"
+      },
+      {
+        "mot": "HERA",
+        "categorie": "personnage",
+        "indice": "Pilote Twi'lek du Ghost"
+      },
+      {
+        "mot": "HOTHBASE",
+        "categorie": "lieu",
+        "indice": "Base Echo rebelle"
+      },
+      {
+        "mot": "HOLDO",
+        "categorie": "personnage",
+        "indice": "Vice-amirale rebelle"
+      },
+      {
+        "mot": "HOUND",
+        "categorie": "droid",
+        "indice": "Droïde chien de chasse"
+      }
+    ],
+    "I": [
+      {
+        "mot": "IMPERIAL",
+        "categorie": "faction",
+        "indice": "Forces de l'Empire"
+      },
+      {
+        "mot": "IONCANNON",
+        "categorie": "arme",
+        "indice": "Canon anti-vaisseau"
+      },
+      {
+        "mot": "INTERCEPTOR",
+        "categorie": "vaisseau",
+        "indice": "TIE Interceptor rapide"
+      },
+      {
+        "mot": "INCOM",
+        "categorie": "compagnie",
+        "indice": "Fabricant du X-Wing"
+      },
+      {
+        "mot": "ICEPLANET",
+        "categorie": "planete",
+        "indice": "Hoth, planète gelée"
+      },
+      {
+        "mot": "ISB",
+        "categorie": "organisation",
+        "indice": "Bureau de Sécurité Impérial"
+      },
+      {
+        "mot": "IDEN",
+        "categorie": "personnage",
+        "indice": "Commandant Inferno"
+      },
+      {
+        "mot": "IMWE",
+        "categorie": "personnage",
+        "indice": "Chirrut Îmwe gardien"
+      },
+      {
+        "mot": "INQUISITOR",
+        "categorie": "personnage",
+        "indice": "Chasseur de Jedi impérial"
+      },
+      {
+        "mot": "ILUM",
+        "categorie": "planete",
+        "indice": "Planète des cristaux kyber"
+      },
+      {
+        "mot": "JABBA",
+        "categorie": "personnage",
+        "indice": "Hutt criminel de Tatooine"
+      },
+      {
+        "mot": "JEDI",
+        "categorie": "concept",
+        "indice": "Ordre des gardiens de la paix"
+      }
+    ],
+    "J": [
+      {
+        "mot": "JABBA",
+        "categorie": "personnage",
+        "indice": "Hutt criminel de Tatooine"
+      },
+      {
+        "mot": "JEDI",
+        "categorie": "concept",
+        "indice": "Ordre des gardiens de la paix"
+      },
+      {
+        "mot": "JAKKU",
+        "categorie": "planete",
+        "indice": "Planète désertique avec épaves"
+      },
+      {
+        "mot": "JARJAR",
+        "categorie": "personnage",
+        "indice": "Gungan maladroit"
+      },
+      {
+        "mot": "JYN",
+        "categorie": "personnage",
+        "indice": "Héroïne de Rogue One"
+      },
+      {
+        "mot": "JEDHA",
+        "categorie": "planete",
+        "indice": "Planète sainte de la Force"
+      },
+      {
+        "mot": "JANGO",
+        "categorie": "personnage",
+        "indice": "Chasseur de primes, père de Boba"
+      },
+      {
+        "mot": "JOCASTA",
+        "categorie": "personnage",
+        "indice": "Bibliothécaire du Temple Jedi"
+      },
+      {
+        "mot": "JUNDLAND",
+        "categorie": "lieu",
+        "indice": "Région désertique de Tatooine"
+      },
+      {
+        "mot": "JAWAS",
+        "categorie": "espece",
+        "indice": "Petits récupérateurs voilés"
+      },
+      {
+        "mot": "JETPACK",
+        "categorie": "technologie",
+        "indice": "Propulseur dorsal mandalorien"
+      },
+      {
+        "mot": "JYNERSO",
+        "categorie": "personnage",
+        "indice": "Nom complet de Jyn"
+      }
+    ],
+    "K": [
+      {
+        "mot": "KYLO",
+        "categorie": "personnage",
+        "indice": "Kylo Ren, fils de Han"
+      },
+      {
+        "mot": "KASHYYYK",
+        "categorie": "planete",
+        "indice": "Planète forestière des Wookiees"
+      },
+      {
+        "mot": "KAMINO",
+        "categorie": "planete",
+        "indice": "Planète océan des clones"
+      },
+      {
+        "mot": "KRAYT",
+        "categorie": "creature",
+        "indice": "Dragon du désert de Tatooine"
+      },
+      {
+        "mot": "KENOBI",
+        "categorie": "personnage",
+        "indice": "Obi-Wan Kenobi"
+      },
+      {
+        "mot": "KRENNIC",
+        "categorie": "personnage",
+        "indice": "Directeur de l'Étoile de la Mort"
+      },
+      {
+        "mot": "KORRIBAN",
+        "categorie": "planete",
+        "indice": "Ancienne vallée des Seigneurs Sith"
+      },
+      {
+        "mot": "KANAN",
+        "categorie": "personnage",
+        "indice": "Jedi survivant de l'Ordre 66"
+      },
+      {
+        "mot": "KIADIMUNDI",
+        "categorie": "personnage",
+        "indice": "Maître Jedi à grande tête"
+      },
+      {
+        "mot": "KALLUS",
+        "categorie": "personnage",
+        "indice": "Agent ISB devenu rebelle"
+      },
+      {
+        "mot": "KITFISTO",
+        "categorie": "personnage",
+        "indice": "Maître Jedi nautolan"
+      },
+      {
+        "mot": "KASHYYYK",
+        "categorie": "planete",
+        "indice": "Monde des Wookiees"
+      }
+    ],
+    "L": [
+      {
+        "mot": "LEIA",
+        "categorie": "personnage",
+        "indice": "Princesse d'Alderaan"
+      },
+      {
+        "mot": "LUKE",
+        "categorie": "personnage",
+        "indice": "Jedi de Tatooine"
+      },
+      {
+        "mot": "LANDO",
+        "categorie": "personnage",
+        "indice": "Baron administrateur de Bespin"
+      },
+      {
+        "mot": "LAHIMU",
+        "categorie": "planete",
+        "indice": "Planète ferme des Erso"
+      },
+      {
+        "mot": "LIGHTSABER",
+        "categorie": "arme",
+        "indice": "Arme élégante des Jedi"
+      },
+      {
+        "mot": "LOTHAL",
+        "categorie": "planete",
+        "indice": "Planète occupée par l'Empire"
+      },
+      {
+        "mot": "LARS",
+        "categorie": "personnage",
+        "indice": "Famille d'éleveurs d'humidité"
+      },
+      {
+        "mot": "LUMINARA",
+        "categorie": "personnage",
+        "indice": "Maîtresse Jedi mirialan"
+      },
+      {
+        "mot": "LOTHWOLF",
+        "categorie": "creature",
+        "indice": "Loup mystique de Lothal"
+      },
+      {
+        "mot": "LYRA",
+        "categorie": "personnage",
+        "indice": "Mère de Jyn Erso"
+      },
+      {
+        "mot": "LOBOT",
+        "categorie": "personnage",
+        "indice": "Cybersiste de Cloud City"
+      },
+      {
+        "mot": "LEIA",
+        "categorie": "personnage",
+        "indice": "Générale rebelle"
+      }
+    ],
+    "M": [
+      {
+        "mot": "MAUL",
+        "categorie": "personnage",
+        "indice": "Sith à cornes rouges"
+      },
+      {
+        "mot": "MUSTAFAR",
+        "categorie": "planete",
+        "indice": "Planète de lave et duel"
+      },
+      {
+        "mot": "MYGEETO",
+        "categorie": "planete",
+        "indice": "Planète cristalline bancaire"
+      },
+      {
+        "mot": "MILLENNIUMFALCON",
+        "categorie": "vaisseau",
+        "indice": "Vaisseau le plus rapide"
+      },
+      {
+        "mot": "MONCALA",
+        "categorie": "planete",
+        "indice": "Mon Calamari, planète aquatique"
+      },
+      {
+        "mot": "MANDALORE",
+        "categorie": "planete",
+        "indice": "Planète des guerriers en armure"
+      },
+      {
+        "mot": "MOFF",
+        "categorie": "titre",
+        "indice": "Gouverneur sectoriel impérial"
+      },
+      {
+        "mot": "MOTHMA",
+        "categorie": "personnage",
+        "indice": "Fondatrice de l'Alliance rebelle"
+      },
+      {
+        "mot": "MAZ",
+        "categorie": "personnage",
+        "indice": "Ancienne pirate sage"
+      },
+      {
+        "mot": "MERRIN",
+        "categorie": "personnage",
+        "indice": "Nightsister survivante"
+      },
+      {
+        "mot": "MALACHOR",
+        "categorie": "planete",
+        "indice": "Ancien champ de bataille Sith"
+      },
+      {
+        "mot": "MYNOCK",
+        "categorie": "creature",
+        "indice": "Créature suceuse d'énergie"
+      }
+    ],
+    "N": [
+      {
+        "mot": "NABOO",
+        "categorie": "planete",
+        "indice": "Planète élégante de Padmé"
+      },
+      {
+        "mot": "NEIMOIDIEN",
+        "categorie": "espece",
+        "indice": "Espèce marchande de la Fédération"
+      },
+      {
+        "mot": "NARSHADDAA",
+        "categorie": "planete",
+        "indice": "Lune des contrebandiers"
+      },
+      {
+        "mot": "NIGHTBROTHER",
+        "categorie": "groupe",
+        "indice": "Guerriers zabraks de Dathomir"
+      },
+      {
+        "mot": "NEXU",
+        "categorie": "creature",
+        "indice": "Prédateur à quatre yeux"
+      },
+      {
+        "mot": "NABOOFIGHTER",
+        "categorie": "vaisseau",
+        "indice": "Chasseur chromé élégant"
+      },
+      {
+        "mot": "NIIMA",
+        "categorie": "lieu",
+        "indice": "Avant-poste sur Jakku"
+      },
+      {
+        "mot": "NOGHRI",
+        "categorie": "espece",
+        "indice": "Assassins au service de Vador"
+      },
+      {
+        "mot": "NUTE",
+        "categorie": "personnage",
+        "indice": "Viceroy Nute Gunray"
+      },
+      {
+        "mot": "NEXUS",
+        "categorie": "lieu",
+        "indice": "Point de convergence de la Force"
+      },
+      {
+        "mot": "NUVANE",
+        "categorie": "planete",
+        "indice": "Planète neutre"
+      },
+      {
+        "mot": "NIGHTSISTER",
+        "categorie": "groupe",
+        "indice": "Sorcières de Dathomir"
+      }
+    ],
+    "O": [
+      {
+        "mot": "OBIWAN",
+        "categorie": "personnage",
+        "indice": "Maître Jedi d'Anakin"
+      },
+      {
+        "mot": "ORDER66",
+        "categorie": "evenement",
+        "indice": "Ordre d'extermination des Jedi"
+      },
+      {
+        "mot": "OUTPOST",
+        "categorie": "lieu",
+        "indice": "Avant-poste militaire"
+      },
+      {
+        "mot": "OLEG",
+        "categorie": "personnage",
+        "indice": "Pilote rebelle"
+      },
+      {
+        "mot": "OMEGA",
+        "categorie": "personnage",
+        "indice": "Clone féminin défectueux"
+      },
+      {
+        "mot": "ORANGE",
+        "categorie": "couleur",
+        "indice": "Couleur de sabre rare"
+      },
+      {
+        "mot": "OVERLORD",
+        "categorie": "titre",
+        "indice": "Titre impérial élevé"
+      },
+      {
+        "mot": "OOLA",
+        "categorie": "personnage",
+        "indice": "Danseuse twi'lek de Jabba"
+      },
+      {
+        "mot": "ORION",
+        "categorie": "concept",
+        "indice": "Nom de vaisseau ou constellation"
+      },
+      {
+        "mot": "OUTER",
+        "categorie": "concept",
+        "indice": "Bordure Extérieure"
+      },
+      {
+        "mot": "ONDERON",
+        "categorie": "planete",
+        "indice": "Planète jungle rebelle"
+      },
+      {
+        "mot": "OZZEL",
+        "categorie": "personnage",
+        "indice": "Amiral incompétent"
+      }
+    ],
+    "P": [
+      {
+        "mot": "PADME",
+        "categorie": "personnage",
+        "indice": "Sénatrice de Naboo"
+      },
+      {
+        "mot": "PALPATINE",
+        "categorie": "personnage",
+        "indice": "Chancelier devenu Empereur"
+      },
+      {
+        "mot": "PORG",
+        "categorie": "espece",
+        "indice": "Petit oiseau curieux d'Ahch-To"
+      },
+      {
+        "mot": "PODRACER",
+        "categorie": "vehicule",
+        "indice": "Véhicule de course de Tatooine"
+      },
+      {
+        "mot": "PHASMA",
+        "categorie": "personnage",
+        "indice": "Capitaine en chrome"
+      },
+      {
+        "mot": "PILOT",
+        "categorie": "role",
+        "indice": "Conducteur de chasseurs"
+      },
+      {
+        "mot": "PYKE",
+        "categorie": "espece",
+        "indice": "Syndicat criminel masqué"
+      },
+      {
+        "mot": "PLOKOON",
+        "categorie": "personnage",
+        "indice": "Maître Jedi Kel Dor"
+      },
+      {
+        "mot": "POE",
+        "categorie": "personnage",
+        "indice": "Meilleur pilote de la Résistance"
+      },
+      {
+        "mot": "PROTOCOL",
+        "categorie": "droid",
+        "indice": "Type de droïde comme C-3PO"
+      },
+      {
+        "mot": "PIT",
+        "categorie": "lieu",
+        "indice": "Fosse du Sarlacc"
+      },
+      {
+        "mot": "PIETT",
+        "categorie": "personnage",
+        "indice": "Amiral de l'Executor"
+      }
+    ],
+    "Q": [
+      {
+        "mot": "QUIGON",
+        "categorie": "personnage",
+        "indice": "Maître de Obi-Wan"
+      },
+      {
+        "mot": "QIRA",
+        "categorie": "personnage",
+        "indice": "Compagne de Han dans Solo"
+      },
+      {
+        "mot": "QUARREN",
+        "categorie": "espece",
+        "indice": "Espèce à tentacules de Mon Cala"
+      },
+      {
+        "mot": "QUADLASER",
+        "categorie": "arme",
+        "indice": "Tourelle à quatre canons"
+      },
+      {
+        "mot": "QUADINARO",
+        "categorie": "personnage",
+        "indice": "Pilote xexto de podrace"
+      },
+      {
+        "mot": "QUARRY",
+        "categorie": "lieu",
+        "indice": "Site d'extraction"
+      },
+      {
+        "mot": "QUELL",
+        "categorie": "personnage",
+        "indice": "Pilote de l'escadron Alphabet"
+      },
+      {
+        "mot": "QUAD",
+        "categorie": "vehicule",
+        "indice": "Quadripode ou moto"
+      },
+      {
+        "mot": "QUICK",
+        "categorie": "concept",
+        "indice": "Tir rapide au blaster"
+      },
+      {
+        "mot": "QUANTUM",
+        "categorie": "technologie",
+        "indice": "Technologie avancée"
+      },
+      {
+        "mot": "QUAKE",
+        "categorie": "evenement",
+        "indice": "Séisme planétaire"
+      },
+      {
+        "mot": "QUERMIA",
+        "categorie": "planete",
+        "indice": "Planète du lore étendu"
+      }
+    ],
+    "R": [
+      {
+        "mot": "REY",
+        "categorie": "personnage",
+        "indice": "Héroïne de la nouvelle trilogie"
+      },
+      {
+        "mot": "RANCOR",
+        "categorie": "creature",
+        "indice": "Monstre sous le palais de Jabba"
+      },
+      {
+        "mot": "REBELLION",
+        "categorie": "faction",
+        "indice": "Alliance pour restaurer la République"
+      },
+      {
+        "mot": "RODIEN",
+        "categorie": "espece",
+        "indice": "Espèce de Greedo"
+      },
+      {
+        "mot": "ROGUEONE",
+        "categorie": "film",
+        "indice": "Équipe qui vole les plans"
+      },
+      {
+        "mot": "REX",
+        "categorie": "personnage",
+        "indice": "Capitaine clone CT-7567"
+      },
+      {
+        "mot": "RADIUS",
+        "categorie": "concept",
+        "indice": "Portée d'une arme"
+      },
+      {
+        "mot": "RATHTAR",
+        "categorie": "creature",
+        "indice": "Monstre tentaculaire"
+      },
+      {
+        "mot": "RAZOR",
+        "categorie": "vaisseau",
+        "indice": "Croiseur de Thrawn"
+      },
+      {
+        "mot": "REAPER",
+        "categorie": "vaisseau",
+        "indice": "Vaisseau de transport impérial"
+      },
+      {
+        "mot": "RYLOTH",
+        "categorie": "planete",
+        "indice": "Planète des Twi'leks"
+      },
+      {
+        "mot": "ROUGE",
+        "categorie": "concept",
+        "indice": "Couleur de l'escadron Rogue"
+      }
+    ],
+    "S": [
+      {
+        "mot": "SABER",
+        "categorie": "arme",
+        "indice": "Lightsaber"
+      },
+      {
+        "mot": "SITH",
+        "categorie": "concept",
+        "indice": "Ordre du côté obscur"
+      },
+      {
+        "mot": "SNOKE",
+        "categorie": "personnage",
+        "indice": "Leader Suprême du Premier Ordre"
+      },
+      {
+        "mot": "STARDESTROYER",
+        "categorie": "vaisseau",
+        "indice": "Vaisseau impérial triangulaire"
+      },
+      {
+        "mot": "SCARIF",
+        "categorie": "planete",
+        "indice": "Planète des archives impériales"
+      },
+      {
+        "mot": "SLAVEONE",
+        "categorie": "vaisseau",
+        "indice": "Vaisseau de Boba Fett"
+      },
+      {
+        "mot": "SULLUST",
+        "categorie": "planete",
+        "indice": "Planète volcanique"
+      },
+      {
+        "mot": "STORMTROOPER",
+        "categorie": "soldat",
+        "indice": "Soldat en armure blanche"
+      },
+      {
+        "mot": "SAVAGE",
+        "categorie": "personnage",
+        "indice": "Frère zabrak de Maul"
+      },
+      {
+        "mot": "SABE",
+        "categorie": "personnage",
+        "indice": "Doublure de Padmé"
+      },
+      {
+        "mot": "SHORE",
+        "categorie": "lieu",
+        "indice": "Rivage planétaire"
+      },
+      {
+        "mot": "SABINE",
+        "categorie": "personnage",
+        "indice": "Mandalorienne artiste"
+      }
+    ],
+    "T": [
+      {
+        "mot": "TATOOINE",
+        "categorie": "planete",
+        "indice": "Planète désert à deux soleils"
+      },
+      {
+        "mot": "TIE",
+        "categorie": "vaisseau",
+        "indice": "Chasseur impérial TIE"
+      },
+      {
+        "mot": "TUSKEN",
+        "categorie": "espece",
+        "indice": "Raiders du désert"
+      },
+      {
+        "mot": "TAUNTAUN",
+        "categorie": "creature",
+        "indice": "Monture de Hoth"
+      },
+      {
+        "mot": "THRAWN",
+        "categorie": "personnage",
+        "indice": "Grand Amiral chiss"
+      },
+      {
+        "mot": "TARKIN",
+        "categorie": "personnage",
+        "indice": "Grand Moff de l'Étoile de la Mort"
+      },
+      {
+        "mot": "TIEFIGHTER",
+        "categorie": "vaisseau",
+        "indice": "Chasseur TIE standard"
+      },
+      {
+        "mot": "TRANDOSHAN",
+        "categorie": "espece",
+        "indice": "Espèce reptilienne de Bossk"
+      },
+      {
+        "mot": "TROOPER",
+        "categorie": "soldat",
+        "indice": "Soldat impérial"
+      },
+      {
+        "mot": "TURBO",
+        "categorie": "technologie",
+        "indice": "Turbolaser"
+      },
+      {
+        "mot": "TEMPLE",
+        "categorie": "lieu",
+        "indice": "Temple Jedi sur Coruscant"
+      },
+      {
+        "mot": "TANTIVE",
+        "categorie": "vaisseau",
+        "indice": "Corvette de Leia"
+      }
+    ],
+    "U": [
+      {
+        "mot": "UTAPAU",
+        "categorie": "planete",
+        "indice": "Planète des puits avec varactyls"
+      },
+      {
+        "mot": "UMBARA",
+        "categorie": "planete",
+        "indice": "Planète de l'ombre"
+      },
+      {
+        "mot": "UWING",
+        "categorie": "vaisseau",
+        "indice": "Transport rebelle en U"
+      },
+      {
+        "mot": "UNKAR",
+        "categorie": "personnage",
+        "indice": "Marchand de pièces sur Jakku"
+      },
+      {
+        "mot": "UPRISING",
+        "categorie": "evenement",
+        "indice": "Rébellion contre l'occupant"
+      },
+      {
+        "mot": "UTINI",
+        "categorie": "cri",
+        "indice": "Cri des Jawas"
+      },
+      {
+        "mot": "UNDERWORLD",
+        "categorie": "lieu",
+        "indice": "Milieu criminel galactique"
+      },
+      {
+        "mot": "ULTRA",
+        "categorie": "technologie",
+        "indice": "Technologie très avancée"
+      },
+      {
+        "mot": "UNIVERSE",
+        "categorie": "concept",
+        "indice": "L'univers Star Wars"
+      },
+      {
+        "mot": "UGNAUGHT",
+        "categorie": "espece",
+        "indice": "Petits travailleurs de Bespin"
+      },
+      {
+        "mot": "UNITY",
+        "categorie": "concept",
+        "indice": "Alliance ou harmonie"
+      },
+      {
+        "mot": "URSA",
+        "categorie": "personnage",
+        "indice": "Mère de Sabine Wren"
+      }
+    ],
+    "V": [
+      {
+        "mot": "VADER",
+        "categorie": "personnage",
+        "indice": "Seigneur Sith en armure noire"
+      },
+      {
+        "mot": "VENATOR",
+        "categorie": "vaisseau",
+        "indice": "Croiseur de la République"
+      },
+      {
+        "mot": "VULTURE",
+        "categorie": "droid",
+        "indice": "Droïde chasseur de la Fédération"
+      },
+      {
+        "mot": "VIBROAXE",
+        "categorie": "arme",
+        "indice": "Hache vibrante"
+      },
+      {
+        "mot": "VIBROBLADE",
+        "categorie": "arme",
+        "indice": "Lame vibrante"
+      },
+      {
+        "mot": "VONREG",
+        "categorie": "personnage",
+        "indice": "Pilote d'élite du Premier Ordre"
+      },
+      {
+        "mot": "VARDOS",
+        "categorie": "planete",
+        "indice": "Planète natale d'Iden Versio"
+      },
+      {
+        "mot": "VENTRESS",
+        "categorie": "personnage",
+        "indice": "Assassin de Dooku"
+      },
+      {
+        "mot": "VICTORY",
+        "categorie": "vaisseau",
+        "indice": "Victory-class Star Destroyer"
+      },
+      {
+        "mot": "VALE",
+        "categorie": "personnage",
+        "indice": "Officier impérial"
+      },
+      {
+        "mot": "VANE",
+        "categorie": "personnage",
+        "indice": "Pirate dans Ahsoka"
+      },
+      {
+        "mot": "VAKAR",
+        "categorie": "personnage",
+        "indice": "Amiral impérial"
+      }
+    ],
+    "W": [
+      {
+        "mot": "WOOKIEE",
+        "categorie": "espece",
+        "indice": "Espèce poilue et forte"
+      },
+      {
+        "mot": "WEDGE",
+        "categorie": "personnage",
+        "indice": "Pilote légendaire du Rogue Squadron"
+      },
+      {
+        "mot": "WAMPA",
+        "categorie": "creature",
+        "indice": "Monstre des glaces de Hoth"
+      },
+      {
+        "mot": "WICKET",
+        "categorie": "personnage",
+        "indice": "Ewok qui rencontre Leia"
+      },
+      {
+        "mot": "WORRT",
+        "categorie": "creature",
+        "indice": "Petite créature devant le palais de Jabba"
+      },
+      {
+        "mot": "WROSHYR",
+        "categorie": "arbre",
+        "indice": "Arbre géant de Kashyyyk"
+      },
+      {
+        "mot": "WARBIRD",
+        "categorie": "vaisseau",
+        "indice": "Vaisseau de combat"
+      },
+      {
+        "mot": "WALKER",
+        "categorie": "vehicule",
+        "indice": "Marcheur impérial"
+      },
+      {
+        "mot": "WINDU",
+        "categorie": "personnage",
+        "indice": "Maître Jedi au sabre violet"
+      },
+      {
+        "mot": "WEEQUAY",
+        "categorie": "espece",
+        "indice": "Espèce de pirates comme Hondo"
+      },
+      {
+        "mot": "WALD",
+        "categorie": "personnage",
+        "indice": "Ami rodien d'Anakin"
+      },
+      {
+        "mot": "WEXLEY",
+        "categorie": "personnage",
+        "indice": "Pilote de l'escadron Black Squadron"
+      }
+    ],
+    "X": [
+      {
+        "mot": "XWING",
+        "categorie": "vaisseau",
+        "indice": "Chasseur rebelle iconique"
+      },
+      {
+        "mot": "XIZOR",
+        "categorie": "personnage",
+        "indice": "Prince du Soleil Noir"
+      },
+      {
+        "mot": "XEXTO",
+        "categorie": "espece",
+        "indice": "Espèce à plusieurs bras de podrace"
+      },
+      {
+        "mot": "XENOBYTE",
+        "categorie": "technologie",
+        "indice": "Technologie alien avancée"
+      },
+      {
+        "mot": "XANTH",
+        "categorie": "planete",
+        "indice": "Planète du lore étendu"
+      },
+      {
+        "mot": "XENON",
+        "categorie": "concept",
+        "indice": "Élément chimique ou gaz"
+      },
+      {
+        "mot": "XERXES",
+        "categorie": "personnage",
+        "indice": "Nom rare dans le lore"
+      },
+      {
+        "mot": "XANADU",
+        "categorie": "planete",
+        "indice": "Planète légendaire"
+      },
+      {
+        "mot": "XERUS",
+        "categorie": "creature",
+        "indice": "Créature fictive"
+      },
+      {
+        "mot": "XENDOR",
+        "categorie": "personnage",
+        "indice": "Ancien Jedi du lore"
+      },
+      {
+        "mot": "XAMSTER",
+        "categorie": "personnage",
+        "indice": "Créature du lore étendu"
+      },
+      {
+        "mot": "XER",
+        "categorie": "personnage",
+        "indice": "Nom très court"
+      }
+    ],
+    "Y": [
+      {
+        "mot": "YODA",
+        "categorie": "personnage",
+        "indice": "Grand Maître Jedi vert"
+      },
+      {
+        "mot": "YWING",
+        "categorie": "vaisseau",
+        "indice": "Bombardier rebelle"
+      },
+      {
+        "mot": "YAVIN",
+        "categorie": "planete",
+        "indice": "Lune de la cérémonie finale"
+      },
+      {
+        "mot": "YULAREN",
+        "categorie": "personnage",
+        "indice": "Colonel puis amiral impérial"
+      },
+      {
+        "mot": "YADDLE",
+        "categorie": "personnage",
+        "indice": "Maîtresse Jedi de l'espèce de Yoda"
+      },
+      {
+        "mot": "YAVINFOUR",
+        "categorie": "planete",
+        "indice": "Lune jungle de la base rebelle"
+      },
+      {
+        "mot": "YAKFACE",
+        "categorie": "personnage",
+        "indice": "Alien à long cou dans le palais de Jabba"
+      },
+      {
+        "mot": "YULAR",
+        "categorie": "personnage",
+        "indice": "Officier impérial"
+      },
+      {
+        "mot": "YVONNE",
+        "categorie": "personnage",
+        "indice": "Nom rare dans le lore"
+      },
+      {
+        "mot": "YUUZHAN",
+        "categorie": "espece",
+        "indice": "Vong, envahisseurs extragalactiques"
+      },
+      {
+        "mot": "YOWIE",
+        "categorie": "creature",
+        "indice": "Créature du lore étendu"
+      },
+      {
+        "mot": "YODA",
+        "categorie": "personnage",
+        "indice": "Sage de 900 ans"
+      }
+    ],
+    "Z": [
+      {
+        "mot": "ZEB",
+        "categorie": "personnage",
+        "indice": "Lasat guerrier du Ghost"
+      },
+      {
+        "mot": "ZILLO",
+        "categorie": "creature",
+        "indice": "Bête géante indestructible"
+      },
+      {
+        "mot": "ZETA",
+        "categorie": "concept",
+        "indice": "Classe de vaisseau ou ordre"
+      },
+      {
+        "mot": "ZORII",
+        "categorie": "personnage",
+        "indice": "Contrebandière en armure rouge"
+      },
+      {
+        "mot": "ZUVIO",
+        "categorie": "personnage",
+        "indice": "Constable de Niima Outpost"
+      },
+      {
+        "mot": "ZAM",
+        "categorie": "personnage",
+        "indice": "Chasseresse de primes changeforme"
+      },
+      {
+        "mot": "ZATT",
+        "categorie": "personnage",
+        "indice": "Jeune Jedi padawan"
+      },
+      {
+        "mot": "ZORBA",
+        "categorie": "personnage",
+        "indice": "Hutt criminel"
+      },
+      {
+        "mot": "ZIRO",
+        "categorie": "personnage",
+        "indice": "Hutt oncle de Jabba"
+      },
+      {
+        "mot": "ZAMASU",
+        "categorie": "personnage",
+        "indice": "Nom du lore étendu"
+      },
+      {
+        "mot": "ZEB",
+        "categorie": "personnage",
+        "indice": "Guerrier violet Lasat"
+      },
+      {
+        "mot": "ZILLO",
+        "categorie": "creature",
+        "indice": "Monstre cloné"
+      }
+    ]
+  }
+}

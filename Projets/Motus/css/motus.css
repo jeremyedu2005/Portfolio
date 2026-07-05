@@ -1,0 +1,807 @@
+/* css/motus.css - Styles principaux du projet Motus Star Wars */
+
+/* ==========================================================================
+   1. STYLES GLOBAUX ET COMPOSANTS FLUIDES (DESKTOP PAR DÉFAUT)
+   ========================================================================== */
+body {
+    background-color: #06060a;
+    /* Un noir très profond avec une pointe de bleu espace */
+    color: #eee;
+    /* Une couleur de texte claire par défaut pour que tout soit lisible */
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Conteneurs de pages globaux - Changement en max-width fluide et padding adaptatif */
+.accueil,
+.regles,
+.demonstration,
+.mentions-legales {
+    width: 95%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    background: #0a0a0a;
+    border-radius: 12px;
+}
+
+.accueil {
+    color: #00ff00;
+    border: 2px solid #00ff00;
+    box-shadow: 0 0 25px rgba(0, 255, 0, 0.4);
+    text-align: center;
+    margin-top: 80px;
+}
+
+.accueil h1 {
+    color: #ffff00;
+    font-size: clamp(2em, 5vw, 3em);
+    text-shadow: 0 0 15px #ffff00;
+    margin-bottom: 20px;
+}
+
+.accueil p {
+    font-size: 1.3em;
+    line-height: 1.6;
+    margin: 20px 0;
+    color: #eee;
+}
+
+.regles {
+    background: #111;
+    border: 2px solid #444;
+}
+
+.regles h1 {
+    color: #ffff00;
+    text-shadow: 0 0 15px #ffff00;
+    text-align: center;
+    font-size: clamp(1.8em, 4vw, 2.5em);
+}
+
+.regles p,
+.regles li {
+    line-height: 1.6;
+    font-size: 1.1em;
+    list-style-type: none;
+}
+
+.retour {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.2em;
+}
+
+.retour a {
+    color: #00ccff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.retour a:hover {
+    text-decoration: underline;
+}
+
+.demonstration {
+    border: 2px solid #00ff00;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+}
+
+.demonstration h1 {
+    color: #ffff00;
+    text-align: center;
+    text-shadow: 0 0 10px #ffff00;
+    font-size: clamp(1.8em, 4vw, 2.5em);
+}
+
+.rouge {
+    color: #ff4040;
+    font-weight: bold;
+}
+
+.jaune {
+    color: #ffff99;
+    font-weight: bold;
+}
+
+/* Zone des actions & Boutons unifiés en Flexbox Wrap */
+.demo-actions,
+.modal-actions,
+.saisie-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.btn-retour,
+.btn-jouer,
+.btn-demo,
+.btn-nouveau {
+    display: inline-block;
+    padding: 14px 35px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+}
+
+.btn-retour {
+    background: #444;
+    color: #fff;
+}
+
+.btn-jouer {
+    background: #00ff00;
+    color: #000;
+}
+
+.btn-demo {
+    background: #ffff00;
+    color: #000;
+}
+
+.btn-nouveau {
+    background: #00ff00;
+    color: #000;
+}
+
+.btn-retour:hover,
+.btn-jouer:hover,
+.btn-demo:hover,
+.btn-nouveau:hover {
+    opacity: 0.85;
+    box-shadow: 0 0 15px currentColor;
+    transform: scale(1.05);
+}
+
+.btn-secondaire {
+    color: #00ccff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.1em;
+}
+
+.btn-secondaire:hover {
+    color: #ffff00;
+    text-decoration: underline;
+}
+
+.demo-link {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 1.1em;
+}
+
+.demonstration ul {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 600px;
+    line-height: 1.8;
+}
+
+.demonstration ul li {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.demo-progress,
+.demo-complete {
+    text-align: center;
+    font-style: italic;
+    margin: 30px 0;
+    color: #00ff00;
+}
+
+.demo-complete {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-shadow: 0 0 10px #00ff00;
+}
+
+.demonstration .demo-image-container {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.demonstration .demo-image-container img {
+    border: 4px solid #00ff00;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #00ff00;
+    max-width: 100%;
+    height: auto;
+}
+
+/* ==========================================================================
+   2. ZONE DE JEU PRINCIPALE
+   ========================================================================== */
+.jeu {
+    width: 95%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px 20px;
+    background: #0a0a0a;
+    color: #00ff00;
+    border: 2px solid #00ff00;
+    border-radius: 12px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.jeu h1 {
+    color: #ffff00;
+    text-shadow: 0 0 10px #ffff00;
+    font-size: clamp(1.8em, 4vw, 2.5em);
+}
+
+/* Grille de jeu Desktop */
+.grille {
+    display: grid;
+    grid-template-columns: repeat(var(--mot-length, 6), 80px);
+    grid-template-rows: repeat(6, 80px);
+    gap: 8px;
+    justify-content: center;
+    margin: 30px auto;
+    width: fit-content;
+}
+
+.ligne {
+    display: contents;
+}
+
+.case {
+    width: 80px;
+    height: 80px;
+    background: #222;
+    border: 2px solid #444;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.case.rouge,
+.case.bien-place {
+    background: #ff4040 !important;
+    border-color: #ff8080 !important;
+    color: #fff !important;
+    box-shadow: 0 0 10px #ff4040;
+}
+
+.case.jaune,
+.case.mal-place {
+    background: #ffff99 !important;
+    border-color: #ffff66 !important;
+    color: #000 !important;
+}
+
+.case.gris,
+.case.absent {
+    background: #555 !important;
+    border-color: #777 !important;
+    color: #aaa !important;
+}
+
+/* Saisie & Conteneurs */
+.saisie-container {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #111;
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.premiere-lettre {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ff4040;
+    min-width: 40px;
+}
+
+.saisie-container input[type="text"] {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #00ff00;
+    color: #00ff00;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 250px;
+    outline: none;
+    letter-spacing: 8px;
+    text-align: center;
+}
+
+.saisie-container input[type="text"]::placeholder {
+    color: #444;
+    letter-spacing: 8px;
+}
+
+/* Clavier Bureau */
+.clavier .case {
+    width: 45px !important;
+    height: 45px !important;
+    font-size: 1.1em !important;
+    border-radius: 6px !important;
+    box-shadow: none !important;
+}
+
+.clavier .case.neutre {
+    background: #333 !important;
+    border-color: #555 !important;
+    color: #fff !important;
+}
+
+.btn-reset,
+.btn-indice,
+.btn-revelation {
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-reset {
+    background: #444;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.btn-reset:hover {
+    background: #666;
+}
+
+.btn-indice {
+    background: #444;
+    color: #fff;
+}
+
+.btn-indice:hover {
+    background: #666;
+}
+
+.btn-indice:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.btn-revelation {
+    background-color: #dc3545;
+    color: white;
+    margin: 10px 0;
+}
+
+.btn-revelation:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.btn-revelation:hover:not(:disabled) {
+    background-color: #c82333;
+}
+
+/* Modales & Messages */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-confirmation {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+.btn-oui,
+.btn-non {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-oui {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-non {
+    background-color: #28a745;
+    color: white;
+}
+
+.indice {
+    color: #ffff00;
+    font-size: 1.2em;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.erreur {
+    color: #ff4040;
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 1.1em;
+}
+
+.victoire {
+    color: #00ff00;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 30px 0;
+    text-shadow: 0 0 10px #00ff00;
+}
+
+.defaite {
+    color: #ff4040;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 30px 0;
+    text-shadow: 0 0 10px #ff4040;
+}
+
+.tentative {
+    font-size: 1.3em;
+    margin-top: 30px;
+    color: #00ff00;
+}
+
+.valider-form,
+.indice-form,
+.revelation-form {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Mentions Légales */
+.mentions-legales {
+    max-width: 1000px;
+}
+
+.titre-mentions h1 {
+    color: #ffff00;
+    text-align: center;
+    font-size: clamp(1.8em, 4vw, 2.5em);
+    text-shadow: 0 0 15px #ffff00;
+    margin-bottom: 40px;
+}
+
+.section-mentions {
+    background: #111;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.section-mentions h2 {
+    color: #00ff00;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-shadow: 0 0 8px #00ff00;
+}
+
+.section-mentions p {
+    line-height: 1.8;
+    font-size: 1.1em;
+    margin-bottom: 12px;
+    color: #ddd;
+}
+
+.section-mentions strong {
+    color: #00ff00;
+}
+
+.section-mentions a {
+    color: #00ccff;
+    text-decoration: none;
+}
+
+.section-mentions a:hover {
+    color: #ffff00;
+    text-decoration: underline;
+}
+
+.section-mentions ul li {
+    line-height: 1.8;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    color: #ddd;
+    list-style-type: disc;
+}
+
+.footer-mentions {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #333;
+    margin-top: 40px;
+}
+
+.footer-mentions p {
+    color: #888;
+}
+
+/* ==========================================================================
+   3. STRUCTURE DU BARRE DE NAVIGATION (NAVBAR)
+   ========================================================================== */
+.navbar {
+    background: #0a0a0a;
+    border-bottom: 3px solid #00ff00;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.4);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-logo {
+    color: #ffff00;
+    font-size: 1.9em;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0 0 15px #ffff00;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    color: #00ff00;
+    text-decoration: none;
+    font-size: 1.25em;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffff00;
+    text-shadow: 0 0 10px #ffff00;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 32px;
+    height: 3px;
+    background: #00ff00;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+
+/* ==========================================================================
+   4. INTERMEDIATE POINT DE BASCULE (Sous 960px)
+   ========================================================================== */
+@media (max-width: 960px) {
+    .navbar-menu {
+        gap: 20px;
+    }
+
+    .nav-link {
+        font-size: 1.1em;
+    }
+
+    .grille {
+        grid-template-columns: repeat(var(--mot-length, 6), 1fr);
+        grid-template-rows: repeat(6, auto);
+        width: 100%;
+        max-width: 450px;
+        gap: 6px;
+    }
+
+    .case {
+        width: auto;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        font-size: clamp(1.2em, 3.5vw, 1.8em);
+    }
+}
+
+
+/* ==========================================================================
+   5. VERSION TABLETTE ET SMARTPHONE GÉNÉRALE (Sous 768px)
+   ========================================================================== */
+@media (max-width: 768px) {
+    .navbar {
+        overflow: visible !important;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .navbar-menu {
+        position: absolute;
+        top: 75px;
+        left: 0;
+        width: 100%;
+        background: #0a0a0a;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0;
+        gap: 25px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+        transform: translateY(-200%);
+        transition: transform 0.4s ease;
+        z-index: 99999 !important;
+    }
+
+    .navbar-menu.active {
+        transform: translateY(0) !important;
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translate(6px, 6px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+
+    .accueil,
+    .regles,
+    .demonstration,
+    .mentions-legales,
+    .jeu {
+        margin: 15px auto;
+        padding: 20px 10px;
+        width: 98%;
+    }
+
+    /* PROTECTION STRICTE : Empêche la grille de dépasser sur n'importe quel mobile */
+    .grille {
+        grid-template-columns: repeat(var(--mot-length, 6), calc(85vw / var(--mot-length, 6))) !important;
+        grid-template-rows: repeat(6, calc(85vw / var(--mot-length, 6))) !important;
+        width: fit-content !important;
+        max-width: 100% !important;
+        gap: 4px !important;
+        margin: 15px auto !important;
+    }
+
+    .case {
+        width: 100% !important;
+        height: 100% !important;
+        max-width: unset !important;
+        max-height: unset !important;
+        min-width: unset !important;
+        min-height: unset !important;
+        font-size: clamp(1em, 5vw, 1.5em) !important;
+    }
+
+    .demo-actions,
+    .saisie-form {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    .btn-retour,
+    .btn-jouer,
+    .btn-demo,
+    .btn-nouveau,
+    .btn-indice,
+    .btn-revelation,
+    .btn-reset {
+        width: 100%;
+        margin: 5px 0 !important;
+        box-sizing: border-box;
+    }
+
+    .saisie-container {
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px 15px;
+        gap: 8px;
+        justify-content: space-between;
+    }
+
+    .saisie-container input[type="text"] {
+        width: 0;
+        flex-grow: 1;
+        font-size: 1.4em;
+        letter-spacing: 4px;
+    }
+
+    .premiere-lettre {
+        font-size: 1.4em;
+        min-width: 25px;
+    }
+
+    .touche-valider {
+        padding: 6px 15px;
+        width: auto;
+        height: auto;
+        font-size: 1em;
+    }
+
+    .clavier {
+        display: none !important;
+    }
+}
+
+
+/* ==========================================================================
+   6. AJUSTEMENTS ULTRA-MOBILES (Sous 480px)
+   ========================================================================== */
+@media (max-width: 480px) {
+    .grille {
+        grid-template-columns: repeat(var(--mot-length, 6), calc(88vw / var(--mot-length, 6))) !important;
+        grid-template-rows: repeat(6, calc(88vw / var(--mot-length, 6))) !important;
+        gap: 3px !important;
+    }
+
+    .case {
+        font-size: 1.1em !important;
+    }
+
+    .saisie-container {
+        padding: 8px 10px;
+        gap: 5px;
+    }
+
+    .saisie-container input[type="text"] {
+        font-size: 1.2em;
+        letter-spacing: 3px;
+    }
+
+    .premiere-lettre {
+        font-size: 1.2em;
+        min-width: 18px;
+    }
+}
