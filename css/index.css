@@ -488,7 +488,7 @@ li a:hover {
 }
 
 /* Redimensionnement spécifique pour l'image du projet Motus */
-.projets-image img.img-motus {
+.projets-image .img-motus {
     object-fit: contain;
     /* Empêche de zoomer/rogner agressivement si l'image est grande */
     background-color: #0a0e1a;
