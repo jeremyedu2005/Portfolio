@@ -437,7 +437,7 @@ li a:hover {
     border-color: #7d5df1;
     /* Couleur cyan de tes hovers de liens */
     box-shadow: 0 4px 20px rgba(77, 217, 255, 0.15);
-    
+
 }
 
 .projets {
@@ -486,6 +486,18 @@ li a:hover {
     /* Recadre proprement ton image pour éviter de l'écraser */
     border-bottom: 2px solid #0D22A4;
 }
+
+/* Redimensionnement spécifique pour l'image du projet Motus */
+.projets-image img.img-motus {
+    object-fit: contain;
+    /* Empêche de zoomer/rogner agressivement si l'image est grande */
+    background-color: #0a0e1a;
+    /* Ajoute un fond bleu nuit pour remplir l'espace si l'image a des bandes */
+    padding: 10px;
+    /* Alèse un peu l'image pour qu'elle ne colle pas aux bordures bleues */
+}
+
+
 
 /* Zone textuelle à l'intérieur de ta carte */
 
