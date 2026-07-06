@@ -27,7 +27,7 @@ body {
     min-height: 100%;
     overflow-x: hidden;
     position: relative;
-    padding-top: 70px;
+    padding-top: 60px;
 }
 
 header {
@@ -40,7 +40,7 @@ header {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    z-index: 9999;
+    z-index: 999;
 }
 
 nav {
@@ -119,7 +119,7 @@ li a:hover {
 .fond-img {
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: calc(100vh - 60px);
     /* On pousse le CONTENU de la section (le texte) vers le bas pour ne pas qu'il soit sous le menu */
     padding-top: 60px;
     display: flex;
@@ -560,11 +560,11 @@ li a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(10, 14, 26, 0.85);
+    background-color: rgba(10, 14, 26, 0.95); /* Légèrement opacifié pour masquer le fond */
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     /*utile pour safari d'après Gemini*/
-    z-index: 999999 !important; /*On passe très haut pour écraser le header fixe */
+    z-index: 99999 !important; /*On passe très haut pour écraser le header fixe */
     display: flex;
     justify-content: center;
     align-items: center;
