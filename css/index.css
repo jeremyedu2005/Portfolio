@@ -27,7 +27,7 @@ body {
     min-height: 100%;
     overflow-x: hidden;
     position: relative;
-    padding-top: 60px;
+    padding-top: 70px;
 }
 
 header {
@@ -40,12 +40,18 @@ header {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    z-index: 999;
+    z-index: 99999;
 }
 
 nav {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 100%;
+    background-color: rgba(20, 27, 48, 0.95);
+    backdrop-filter: blur(8px);
+    z-index: 100;
+
 }
 
 .navbar {
@@ -119,7 +125,7 @@ li a:hover {
 .fond-img {
     position: relative;
     width: 100%;
-    min-height: calc(100vh - 60px);
+    min-height: 100vh;
     /* On pousse le CONTENU de la section (le texte) vers le bas pour ne pas qu'il soit sous le menu */
     padding-top: 60px;
     display: flex;
@@ -560,11 +566,12 @@ li a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(10, 14, 26, 0.95); /* Légèrement opacifié pour masquer le fond */
+    background-color: rgba(10, 14, 26, 0.85);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     /*utile pour safari d'après Gemini*/
-    z-index: 99999 !important; /*On passe très haut pour écraser le header fixe */
+    z-index: 100000;
+    /* CORRECTIF 1 : z-index supérieur au header fixe pour afficher le titre et la croix */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -588,8 +595,7 @@ li a:hover {
     padding: 40px;
     position: relative;
     box-shadow: 0 10px 30px rgba(77, 217, 255, 0.2);
-    margin: auto; /*aligne verticalement si le texte est long*/
-    
+    margin: auto; /* Aligne proprement au centre si le contenu dépasse */
 }
 
 #modal-close {
@@ -601,30 +607,21 @@ li a:hover {
     color: #c4ccd9;
     font-size: 32px;
     cursor: pointer;
-    z-index: 100001;
-    /* Reste cliquable au-dessus du contenu injecté */
+    z-index: 100001; /* Reste cliquable au-dessus du contenu injecté */
 }
 
 #modal-close:hover {
     color: #4dd9ff;
 }
 
-/* Sécurité d'affichage pour les éléments injectés */
-.modal-titre {
-    color: #e8f4ff;
-    margin-bottom: 15px;
-    font-size: 24px;
-    /* Légèrement réduit pour mobile */
-    line-height: 1.4;
-    padding-right: 25px;
-    /* Évite de chevaucher la croix de fermeture */
-}
 
 /* Style des éléments clonés du template dans la modale */
 .modal-titre {
     color: #e8f4ff;
     margin-bottom: 15px;
     font-size: 28px;
+    line-height: 1.4;
+    padding-right: 25px; /* Évite de chevaucher la croix de fermeture */
 }
 
 .modal-text-long {
