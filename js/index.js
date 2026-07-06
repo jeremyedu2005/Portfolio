@@ -33,3 +33,22 @@ modalContainer.addEventListener('click', (e) => {
         document.body.classList.remove('menu-open');
     }
 });
+
+// ==================== ANIMATION AU DEFILEMENT (SCROLL REVEAL) ====================
+// Ajoute/retire .reveal-active selon que l'élément est visible ou non
+// (effet "va-et-vient" façon pages Samsung : l'animation se rejoue si on remonte)
+const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('reveal-active');
+        } else {
+            entry.target.classList.remove('reveal-active');
+        }
+    });
+}, {
+    threshold: 0.15 // se déclenche quand 15% de l'élément est visible
+});
+
+document.querySelectorAll('.scroll-reveal').forEach(el => {
+    revealObserver.observe(el);
+});
